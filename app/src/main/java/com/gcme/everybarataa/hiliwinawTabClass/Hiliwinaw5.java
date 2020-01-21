@@ -17,10 +17,10 @@ import com.google.android.material.tabs.TabLayout;
 
 import com.gcme.everybarataa.hiliwinawFragments.FragmentFive;
 import com.gcme.everybarataa.hiliwinawFragments.FragmentFour;
-import com.gcme.everybarataa.hiliwinawFragments.FragmentOne;
-import com.gcme.everybarataa.hiliwinawFragments.FragmentTwo;
+import com.gcme.everybarataa.hiliwinawFragments.FragmentEgziabherAle;
+import com.gcme.everybarataa.hiliwinawFragments.FragmentEgziabherManew;
 import com.gcme.everybarataa.hiliwinawFragments.FragmentSix;
-import com.gcme.everybarataa.hiliwinawFragments.FragmentThree;
+import com.gcme.everybarataa.hiliwinawFragments.FragmentYegziabherMenor;
 import com.gcme.everybarataa.R;
 import com.gcme.everybarataa.AboutUs;
 import com.gcme.everybarataa.Feedback;
@@ -84,12 +84,12 @@ public class Hiliwinaw5 extends AppCompatActivity {
                         fragment = new FragmentSix();
                     }
                     if (position == 1) {
-                        fragment = new FragmentTwo();
+                        fragment = new FragmentEgziabherManew();
                      }
 
                     if (position == 2) {
 
-                        fragment = new FragmentThree();
+                        fragment = new FragmentYegziabherMenor();
                     }
 
                     if (position == 3) {
@@ -101,7 +101,7 @@ public class Hiliwinaw5 extends AppCompatActivity {
                     }
 
                     if (position == 5) {
-                        fragment = new FragmentOne();
+                        fragment = new FragmentEgziabherAle();
                     }
 
             return fragment;

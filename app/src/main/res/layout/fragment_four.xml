@@ -25,9 +25,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/tvFour"
             android:layout_centerInParent="true"
-            android:text="@string/four"
+            android:text="@string/bemejemeria_hulu_neger_bado_neberin_content"
             android:textSize="18dp"
-            android:textColor="#000000"  android:textIsSelectable="true"/>
+            android:paddingBottom="20dp"
+            android:textColor="#000000"
+            android:textIsSelectable="true"/>
 
 
     </ScrollView>

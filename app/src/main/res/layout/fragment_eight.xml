@@ -28,7 +28,7 @@
             android:textSize="18dp"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="@string/eight"
+            android:text="@string/yehiwote_alama_mndnew_content"
             android:background="#ffffff"
             android:textColor="#000000"  android:textIsSelectable="true"/>
 

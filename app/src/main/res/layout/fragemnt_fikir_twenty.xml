@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tvTwenty"
             android:layout_centerInParent="true"
-            android:text="@string/twenty"
+            android:text="@string/lifers_yetekarebe_tidar_content"
             android:textSize="18dp"
             android:textColor="#000000"
             android:textIsSelectable="true"/>
@@ -39,9 +39,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/tvTwentyTwo"
                 android:layout_centerInParent="true"
-                android:text="@string/twenty_two"
+                android:text="@string/lifers_yetekarebe_tidar_content1"
                 android:textSize="18dp"
                 android:textColor="#000000"
+                android:paddingBottom="20dp"
                 android:textIsSelectable="true"/>
 
         </LinearLayout>

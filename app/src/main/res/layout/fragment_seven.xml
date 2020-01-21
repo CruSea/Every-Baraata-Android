@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tvSeven"
             android:layout_centerInParent="true"
-            android:text="@string/seven"
+            android:text="@string/hiwot_lemin_kebad_hone_content"
             android:textSize="18dp"
             android:textColor="#000000"  android:textIsSelectable="true"/>
 

@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tvTwenty7"
             android:layout_centerInParent="true"
-            android:text="@string/twenty7"
+            android:text="@string/egziabherin_begil_mawek_content"
             android:textSize="18dp"
             android:textColor="#000000"
             android:textIsSelectable="true"/>
@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/tvTwenty71"
                 android:layout_centerInParent="true"
-                android:text="@string/twenty71"
+                android:text="@string/egziabherin_begil_mawek_content1"
                 android:textSize="18dp"
                 android:textColor="#000000"/>
             <ImageView
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/tvTwenty72"
                 android:layout_centerInParent="true"
-                android:text="@string/twenty72"
+                android:text="@string/egziabherin_begil_mawek_content2"
                 android:textSize="18dp"
                 android:textColor="#000000"
                 android:textIsSelectable="true"/>
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/tvTwenty73"
                 android:layout_centerInParent="true"
-                android:text="@string/twenty73"
+                android:text="@string/egziabherin_begil_mawek_content3"
                 android:textSize="18dp"
                 android:textColor="#000000"
                 android:textIsSelectable="true"/>
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/tvTwenty74"
                 android:layout_centerInParent="true"
-                android:text="@string/twenty74"
+                android:text="@string/egziabherin_begil_mawek_content4"
                 android:textSize="18dp"
                 android:textColor="#000000"
                 android:textIsSelectable="true"/>

@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tvTwenty2"
             android:layout_centerInParent="true"
-            android:text="@string/twenty2"
+            android:text="@string/yewesib_film_mirkogna_content"
             android:textSize="18dp"
             android:textColor="#000000"  android:textIsSelectable="true"/>
 

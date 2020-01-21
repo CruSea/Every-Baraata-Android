@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="በጭንቅ ስንከበብ እግዚአብሔር ወዴት ነው?"
+        android:text="@string/bechink_sinikebeb"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#e46315"/>
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tvNine"
             android:layout_centerInParent="true"
-            android:text="@string/nine"
+            android:text="@string/bechink_sinikebeb_content"
             android:textSize="18dp"
             android:textColor="#000000"  android:textIsSelectable="true"/>
 
