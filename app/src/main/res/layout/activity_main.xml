@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_marginTop="2dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="@string/yegziabher_hiliwuna"
+                        android:textColor="#ffffff"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:id="@+id/tv1yegziabherhiliwina"
+                        android:padding="5dp"
+                        android:background="@drawable/button_design"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:id="@+id/panel1"
+                        android:visibility="gone"
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+
+                            android:text="@string/egziabher_ale_title"
+                            android:id="@+id/btnegziabherale"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/egziabher_manew"
+                            android:id="@+id/btn1egziabhermanew"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/egziabher_menor_ergit_new"
+                            android:id="@+id/btn2yegziabhermenor"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/bemejemeria_hulu_neger_bado_neberin"
+                            android:id="@+id/btn3egzaleminyefeterew"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/egziabher_man_feterew"
+                            android:id="@+id/btn4silasenlitabrara"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/egziabher_yet_new"
+                            android:id="@+id/btn5silase"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="2dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="@string/yehiwot_tiyakewoch"
+                        android:textColor="#ffffff"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:id="@+id/tv2yehiwottiyake"
+                        android:padding="5dip"
+                        android:background="@drawable/button_design"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:id="@+id/panel2"
+                        android:visibility="gone"
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+
+                            android:text="@string/hiwot_lemin_kebad_hone"
+                            android:id="@+id/btn6hiyiwotkebadhone"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/yehiwote_alama_mndnew"
+                            android:id="@+id/btn7yehiwotealama"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/bechink_sinikebeb"
+                            android:id="@+id/btn8bechinksinikebeb"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="2dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="@string/wesibina_yefikir_ginignunet"
+                        android:textColor="#ffffff"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:id="@+id/tv3wesibnfikir"
+                        android:padding="5dip"
+                        android:background="@drawable/button_design"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:id="@+id/panel3"
+                        android:visibility="gone"
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+
+                            android:text="@string/wesibina_yefikir_guadegna"
+                            android:id="@+id/btn12yefikirguadegnafilega"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/yewesib_film_mirkogna"
+                            android:id="@+id/btn15yewesibfilmmirkogna"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <Button
+
+                            android:text="@string/lifers_yetekarebe_tidar"
+                            android:id="@+id/btn17lifersyetekarebetidar"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <Button
+
+                            android:text="@string/ewunetegna_yesetoch_mebt_akibari"
+                            android:id="@+id/btn22ewunetegnayesetochmebt"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="2dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="@string/egziabherin_mawek"
+                        android:textColor="#ffffff"
+                        android:textSize="30dp"
+                        android:gravity="center"
+                        android:id="@+id/tv4egziabmawek"
+                        android:padding="5dip"
+                        android:background="@drawable/button_design"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:id="@+id/panel4"
+                        android:visibility="gone"
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+
+                            android:text="@string/egziabherin_begil_mawek"
+                            android:id="@+id/btn24egziabherinbegilmawek"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/eyesus_lemin_mote"
+                            android:id="@+id/btn25eyesusleminmote"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/egziabher_tselotin_yimelisal"
+                            android:id="@+id/btn26egziabhertselotyimelisalin"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="@string/eyesus_manew"
+                            android:id="@+id/btn27eyesusamilaknew"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="2dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:text="የህይወት ምስክርነቶች"
+                        android:textColor="#ffffff"
+                        android:textSize="30dp"
+                        android:id="@+id/tv5films"
+                        android:gravity="center"
+                        android:padding="5dip"
+                        android:background="@drawable/button_design"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:id="@+id/panel5"
+                        android:visibility="gone"
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+                        <Button
+
+                            android:text="ደስታን ተስፋን ፍለጋ•••"
+                            android:id="@+id/btn32yehiwotmisikirinetoch"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+
+                            android:text="ሁሉንም አየሁት ግን ..."
+                            android:id="@+id/btn33yegilyehiwotmisikirinetoch"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:text="ህይወቴ ተለወጠ ..... እንዴት"
+                            android:id="@+id/btn34yegilyehiwotmisikirinetoch"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:text="ኢየሱስ ህይወቴን ለወጠው"
+                            android:id="@+id/btn35yegilyehiwotmisikirinetoch"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:text="ያመለጠ"
+                            android:id="@+id/btn36yegilyehiwotmisikirinetoch"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:text="እየሱስን እንዲህ ነው ያገኘውት"
+                            android:id="@+id/btn37yegilyehiwotmisikirinetoch"
+                            android:layout_margin="2dip"
+                            android:padding="5dip"
+                            android:textColor="#e46315"
+                            android:background="@drawable/in_button"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+                <ListView
+                    android:id="@android:id/list"
+                    android:layout_width="fill_parent"
+                    android:visibility="gone"
+                    android:layout_height="340dip"
+                    android:drawSelectorOnTop="false"
+                    android:dividerHeight="0px"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

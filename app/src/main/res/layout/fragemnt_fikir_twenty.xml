@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lifers_yetekarebe_tidar"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#e46315"  />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:context="gcme.hascom.Fragments.Six">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTwenty"
+            android:layout_centerInParent="true"
+            android:text="@string/twenty"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textIsSelectable="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTwentyTwo"
+                android:layout_centerInParent="true"
+                android:text="@string/twenty_two"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:textIsSelectable="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

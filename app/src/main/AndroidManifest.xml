@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gcme.everybarataa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_hascom"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            >
+
+
+        </activity>
+        <activity
+            android:name=".hiliwinawTabClass.Hiliwinaw"
+            android:label="የእግዚአብሔር ህልዉና"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".hiliwinawTabClass.Hiliwinaw1"
+            android:label="የእግዚአብሔር ህልዉና"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".hiliwinawTabClass.Hiliwinaw2"
+            android:label="የእግዚአብሔር ህልዉና"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".hiliwinawTabClass.Hiliwinaw3"
+            android:label="የእግዚአብሔር ህልዉና"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".hiliwinawTabClass.Hiliwinaw4"
+            android:label="የእግዚአብሔር ህልዉና"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".hiliwinawTabClass.Hiliwinaw5"
+            android:label="የእግዚአብሔር ህልዉና"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".yehiwotTiyakeTabClass.YehiwotTiyake"
+            android:label="የህይወት ጥያቄዎች"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".yehiwotTiyakeTabClass.YehiwotTiyake1"
+            android:label="የህይወት ጥያቄዎች"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".yehiwotTiyakeTabClass.YehiwotTiyake2"
+            android:label="የህይወት ጥያቄዎች"
+            android:parentActivityName=".MainActivity">
+        </activity>
+
+        <activity
+            android:name=".fikirinawesibTabClass.FikirnaWesib"
+            android:label="ወሲብ እና የፍቅር ግንኙነት"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".fikirinawesibTabClass.FikirnaWesib5"
+            android:label="ወሲብ እና የፍቅር ግንኙነት"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".fikirinawesibTabClass.FikirnaWesib7"
+            android:label="ወሲብ እና የፍቅር ግንኙነት"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".fikirinawesibTabClass.FikirnaWesib10"
+            android:label="ወሲብ እና የፍቅር ግንኙነት"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".egziabherinMawekTabclass.EgziabherinMawek"
+            android:label="እግዚአብሔርን ማወቅ"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".egziabherinMawekTabclass.EgziabherinMawek1"
+            android:label="እግዚአብሔርን ማወቅ"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".egziabherinMawekTabclass.EgziabherinMawek2"
+            android:label="እግዚአብሔርን ማወቅ"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".egziabherinMawekTabclass.EgziabherinMawek3"
+            android:label="እግዚአብሔርን ማወቅ"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".WebView">
+
+        </activity>
+        <activity android:name=".AboutUs"
+            android:label="ስለ እኛ"
+            >
+
+        </activity>
+        <activity android:name=".Feedback"
+            android:label="አስተያየት"
+            >
+
+        </activity>
+        <activity android:name=".TeleEshtaol"
+
+            android:label="ቴል_ኤሽታኦል">
+
+        </activity>
+        <activity android:name=".ActivityFilmoch.Thirty5"
+            android:label="ፊልሞች ይመልከቱ">
+        </activity>
+        <activity android:name=".ActivityFilmoch.Thirty6"
+            android:label="ፊልሞች ይመልከቱ">
+        </activity>
+        <activity android:name=".ActivityFilmoch.Thirty7"
+            android:label="ፊልሞች ይመልከቱ">
+        </activity>
+        <activity android:name=".ActivityFilmoch.Thirty8"
+            android:label="ፊልሞች ይመልከቱ">
+        </activity>
+        <activity android:name=".ActivityFilmoch.Thirty9"
+            android:label="ፊልሞች ይመልከቱ">
+        </activity>
+        <activity android:name=".ActivityFilmoch.Fourty"
+            android:label="ፊልሞች ይመልከቱ">
+        </activity>
+
+    </application>
+
+</manifest>

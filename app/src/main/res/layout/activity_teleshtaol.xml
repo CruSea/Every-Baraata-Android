@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e46315"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp" >
+<TextView
+    android:id="@+id/tvteleshtaol"
+    android:layout_marginTop="30dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:textSize="18dp"
+    android:text="@string/about_teleshtaol"
+    />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    <Button
+
+        android:id="@+id/call_teleshtaol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+        android:text="ይደውሉ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#e46315"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+
+        android:id="@+id/webViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/fb_like"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        />
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

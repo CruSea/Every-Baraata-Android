@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="በጭንቅ ስንከበብ እግዚአብሔር ወዴት ነው?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#e46315"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        tools:context="gcme.hascom.Fragments.Six">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNine"
+            android:layout_centerInParent="true"
+            android:text="@string/nine"
+            android:textSize="18dp"
+            android:textColor="#000000"  android:textIsSelectable="true"/>
+
+
+    </ScrollView>
+</LinearLayout>

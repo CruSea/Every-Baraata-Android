@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:id="@+id/feedback">
+
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ለ :"
+    android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hascom@gmail.com"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:focusable="false"
+        android:longClickable="false"
+        android:clickable="false"
+
+        />
+    <requestFocus/>
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ርዕስ :"
+    android:layout_marginTop="16dp"
+    android:textColor="#f9f7f7"
+    android:paddingLeft="16dp"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textSize="18dp"/>
+
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHighlight="#ef4902" android:textSize="18dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="መልዕክት :"
+        android:layout_marginTop="16dp"
+        android:textColor="#fffafa"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="16dp" android:textSize="18dp"/>
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=" ያለህን ሃሳብ እና ጥያቄ ጻፍ ！"
+        android:layout_marginTop="40dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+
+        android:textSize="18dp"
+
+
+        />
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ላክ"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:focusable="true"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:background="#ffffff"
+        style="@android:style/Widget.Button" />
+
+
+</LinearLayout>
