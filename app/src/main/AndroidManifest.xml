@@ -26,93 +26,92 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             >
-
-
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw"
-            android:label="የእግዚአብሔር ህልዉና"
-            android:parentActivityName=".MainActivity">
+            android:label="@string/yegziabher_hiliwuna"
+            android:parentActivityName=".MainActivity"
+            >
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw1"
-            android:label="የእግዚአብሔር ህልዉና"
+            android:label="@string/yegziabher_hiliwuna"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw2"
-            android:label="የእግዚአብሔር ህልዉና"
+            android:label="@string/yegziabher_hiliwuna"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw3"
-            android:label="የእግዚአብሔር ህልዉና"
+            android:label="@string/yegziabher_hiliwuna"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw4"
-            android:label="የእግዚአብሔር ህልዉና"
+            android:label="@string/yegziabher_hiliwuna"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw5"
-            android:label="የእግዚአብሔር ህልዉና"
+            android:label="@string/yegziabher_hiliwuna"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".yehiwotTiyakeTabClass.YehiwotTiyake"
-            android:label="የህይወት ጥያቄዎች"
+            android:label="@string/yehiwot_tiyakewoch"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".yehiwotTiyakeTabClass.YehiwotTiyake1"
-            android:label="የህይወት ጥያቄዎች"
+            android:label="@string/yehiwot_tiyakewoch"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".yehiwotTiyakeTabClass.YehiwotTiyake2"
-            android:label="የህይወት ጥያቄዎች"
+            android:label="@string/yehiwot_tiyakewoch"
             android:parentActivityName=".MainActivity">
         </activity>
 
         <activity
             android:name=".fikirinawesibTabClass.FikirnaWesib"
-            android:label="ወሲብ እና የፍቅር ግንኙነት"
+            android:label="@string/wesibina_yefikir_ginignunet"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".fikirinawesibTabClass.FikirnaWesib5"
-            android:label="ወሲብ እና የፍቅር ግንኙነት"
+            android:label="@string/wesibina_yefikir_ginignunet"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".fikirinawesibTabClass.FikirnaWesib7"
-            android:label="ወሲብ እና የፍቅር ግንኙነት"
+            android:label="@string/wesibina_yefikir_ginignunet"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".fikirinawesibTabClass.FikirnaWesib10"
-            android:label="ወሲብ እና የፍቅር ግንኙነት"
+            android:label="@string/wesibina_yefikir_ginignunet"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".egziabherinMawekTabclass.EgziabherinMawek"
-            android:label="እግዚአብሔርን ማወቅ"
+            android:label="@string/egziabherin_mawek"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".egziabherinMawekTabclass.EgziabherinMawek1"
-            android:label="እግዚአብሔርን ማወቅ"
+            android:label="@string/egziabherin_mawek"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".egziabherinMawekTabclass.EgziabherinMawek2"
-            android:label="እግዚአብሔርን ማወቅ"
+            android:label="@string/egziabherin_mawek"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".egziabherinMawekTabclass.EgziabherinMawek3"
-            android:label="እግዚአብሔርን ማወቅ"
+            android:label="@string/egziabherin_mawek"
             android:parentActivityName=".MainActivity">
         </activity>
         <activity android:name=".WebView">

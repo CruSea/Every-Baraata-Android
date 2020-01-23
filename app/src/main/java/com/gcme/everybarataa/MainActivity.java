@@ -16,6 +16,8 @@ import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.gcme.everybarataa.ActivityFilmoch.Fourty;
 import com.gcme.everybarataa.ActivityFilmoch.Thirty5;
@@ -42,21 +44,28 @@ import com.gcme.everybarataa.yehiwotTiyakeTabClass.YehiwotTiyake1;
 import com.gcme.everybarataa.yehiwotTiyakeTabClass.YehiwotTiyake2;
 
 
-public class MainActivity extends ListActivity implements OnClickListener
+public class MainActivity extends AppCompatActivity implements OnClickListener
 {
+
+    Toolbar toolbar;
 
     LinearLayout panel1,panel2,panel3,panel4,panel5;
     TextView text1,text2,text3,text4,text5;
     View openLayout;
     private Button button, button1,button2,button3,button4,button5,button6,button7,button8,button12,button15,
             button17,button22,button24,button25,button26,button27,button32,
-            button33,button34,button35,button36,button37,button38,button39;
+            button33,button34,button35,button36,button37;
 
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        toolbar =  findViewById(R.id.toolbar_home);
+        setSupportActionBar(toolbar);
+
+      //  getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         panel1 =  findViewById(R.id.panel1);
         panel2 =  findViewById(R.id.panel2);
