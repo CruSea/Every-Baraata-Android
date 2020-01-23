@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,6 +43,7 @@ import com.gcme.everybarataa.hiliwinawTabClass.Hiliwinaw5;
 import com.gcme.everybarataa.yehiwotTiyakeTabClass.YehiwotTiyake;
 import com.gcme.everybarataa.yehiwotTiyakeTabClass.YehiwotTiyake1;
 import com.gcme.everybarataa.yehiwotTiyakeTabClass.YehiwotTiyake2;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
 public class MainActivity extends AppCompatActivity implements OnClickListener
@@ -66,6 +68,26 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
         setSupportActionBar(toolbar);
 
       //  getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_recents:
+                        Toast.makeText(MainActivity.this, "Recents", Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.action_favorites:
+                        Toast.makeText(MainActivity.this, "Favorites", Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.action_nearby:
+                        Toast.makeText(MainActivity.this, "Nearby", Toast.LENGTH_SHORT).show();
+                        break;
+                }
+                return true;
+            }
+        });
 
         panel1 =  findViewById(R.id.panel1);
         panel2 =  findViewById(R.id.panel2);
