@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:gravity="center"
         android:layout_height="wrap_content"
-        android:text="ይህ የሞባይል አፕልኬሽን በግሬት ኮሚሽን ሚኒስትሪ ኢትዮጵያ የተዘጋጀ ሲሆን ተጨማሪ አስተያየት ወይም ጥያቄ ካለዎት በአድራሻችን ይጻፉልን፡፡"
+        android:text="@string/about_detail"
         android:textSize="18dp"
 
         android:textColor="#ffffff"

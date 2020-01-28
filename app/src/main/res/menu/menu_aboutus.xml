@@ -4,17 +4,17 @@
 
     <item
         android:id="@+id/call"
-        android:title="ቴልኤሽታኦል"
+        android:title="@string/teleshtaol"
         app:showAsAction="never"
           />
 
     <item
         android:id="@+id/aboutus"
-        android:title="ስለ እኛ"
+        android:title="@string/about"
         app:showAsAction="never"
         />
     <item
-        android:title="አስተያየት"
+        android:title="@string/asteyayet"
         android:id="@id/feedback"
         app:showAsAction="never"
         />

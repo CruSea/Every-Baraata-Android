@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
@@ -12,6 +14,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import com.gcme.everybarataa.MainActivity;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.tabs.TabLayout;
 
 import com.gcme.everybarataa.hiliwinawFragments.FragmentFive;
@@ -25,6 +29,9 @@ import com.gcme.everybarataa.AboutUs;
 import com.gcme.everybarataa.Feedback;
 import com.gcme.everybarataa.TeleEshtaol;
 
+/**
+ * Created by buty on 12/29/15.
+ */
 public class Hiliwinaw extends AppCompatActivity {
 
     private Toolbar toolbar;
@@ -36,28 +43,37 @@ public class Hiliwinaw extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tabclass_hiliwinaw);
 
-        toolbar =  findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        viewPager =  findViewById(R.id.viewpager);
+        viewPager = findViewById(R.id.viewpager);
         setupViewPager(viewPager);
 
-        tabLayout =  findViewById(R.id.tabs);
+        tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
-//        FloatingActionButton fab =  findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(Intent.ACTION_SEND);
-//                intent.setType("vnd.android-dir/mms-sms");
-//                intent.putExtra("address", "+251911202110");
-//                intent.putExtra("sms_body", "ሜሴጆን ይጻፉ!!!");
-//                startActivity(intent);
-//            }
-//        });
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation_hiliwunaw);
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_recents:
+                        startActivity(new Intent(Hiliwinaw.this, MainActivity.class));
+                        // Toast.makeText(MainActivity.this, "Recents", Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.action_favorites:
+                        Toast.makeText(Hiliwinaw.this, "Favorites", Toast.LENGTH_SHORT).show();
+                        break;
+                    case R.id.action_nearby:
+                        Toast.makeText(Hiliwinaw.this, "Nearby", Toast.LENGTH_SHORT).show();
+                        break;
+                }
+                return true;
+            }
+        });
+
     }
 
     private void setupViewPager(ViewPager viewPager) {
@@ -75,34 +91,35 @@ public class Hiliwinaw extends AppCompatActivity {
         public Fragment getItem(int position) {
             Fragment fragment = null;
 
-                if (position == 0) {
-                    fragment = new FragmentEgziabherAle();
-                     }
-                if (position == 1) {
+            if (position == 0) {
+                fragment = new FragmentEgziabherAle();
+            }
+            if (position == 1) {
 
-                    fragment = new FragmentEgziabherManew();
-                    }
+                fragment = new FragmentEgziabherManew();
+            }
 
 
-                if (position == 2) {
+            if (position == 2) {
 
-                    fragment = new FragmentYegziabherMenor();
+                fragment = new FragmentYegziabherMenor();
 
-                }
+            }
 
-                if (position == 3) {
-                    fragment = new FragmentFour();
-                }
+            if (position == 3) {
+                fragment = new FragmentFour();
+            }
 
-                if (position == 4) {
-                    fragment = new FragmentFive();
-                }
+            if (position == 4) {
+                fragment = new FragmentFive();
+            }
 
-                if (position == 5) {
-                    fragment = new FragmentSix();
-                }
+            if (position == 5) {
+                fragment = new FragmentSix();
+            }
             return fragment;
         }
+
         @Override
         public int getCount() {
             return 6;
@@ -134,7 +151,7 @@ public class Hiliwinaw extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu){
+    public boolean onCreateOptionsMenu(Menu menu) {
 
         getMenuInflater().inflate(R.menu.menu_aboutus, menu);
         return true;
@@ -145,16 +162,9 @@ public class Hiliwinaw extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        int id = item.getItemId();
+        //  int id = item.getItemId();
 
-        if (id == R.id.menu_share) {
-//            Intent shareIntent = new Intent(Intent.ACTION_SEND);
-//            shareIntent.setType("text/html");
-//            shareIntent.putExtra(Intent.EXTRA_SUBJECT, "SUBJECT");
-//            shareIntent.putExtra(Intent.EXTRA_TEXT, "https://www.habeshastudent.com/m/existence.html");
-//            startActivity(Intent.createChooser(shareIntent, "choose one"));
-
-
+        if (item.getItemId() == R.id.menu_share) {
             String shareBody = "https://www.habeshastudent.com/m/existence.html";
             Intent sharingIntent = new Intent(Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
@@ -163,20 +173,30 @@ public class Hiliwinaw extends AppCompatActivity {
             startActivity(Intent.createChooser(sharingIntent, "choose one"));
 
 
-        }else if (id == R.id.call) {
+        } else if (item.getItemId() == R.id.call) {
 
             Intent myIntent = new Intent(Hiliwinaw.this, TeleEshtaol.class);
             startActivity(myIntent);
-        }else if (id == R.id.feedback) {
+        } else if (item.getItemId() == R.id.feedback) {
 
             Intent myIntent = new Intent(Hiliwinaw.this, Feedback.class);
             startActivity(myIntent);
-        }else if (id == R.id.aboutus) {
+        } else if (item.getItemId() == R.id.aboutus) {
 
             Intent myIntent = new Intent(Hiliwinaw.this, AboutUs.class);
             startActivity(myIntent);
         }
-
         return true;
     }
+
+    @Override
+    public void onBackPressed()
+    {
+        // super.onBackPressed();
+         finish();
+        startActivity(new Intent(Hiliwinaw.this, MainActivity.class));
+
+
+    }
+
 }

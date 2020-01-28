@@ -6,8 +6,22 @@
     <string name="title_activity_second">Second</string>
     <string name="title_activity_get">GetActivity</string>
     <string name="btn_simple_tabs">Simple Tabs</string>
-    <string name="about_teleshtaol">በ0116174400 ግሬት ኮሚሽን ኢትዮጵያ ቢሮ በመደወል ልዩ ልዩ እለታዊና አስተማሪ መልእክቶች እና የማማከር አገልግሎቶችን ማግኘት ይችላሉ፡፡ በተጨማሪም ከሰኞ እስከ አርብ በስራ ሰዓት ከጠዋቱ 3፡00 ሰዓት እስከ 11፡00 ሰዓት ባለሙያወችን በቅድመ ጋብቻና በትዳር እንዲሁም በፀሎት እና ሌሎች መንፈሳዊ አገልግሎቶችን በስልክ ማግኘት ይችላሉ፡፡</string>
+<!--    Menu Items-->
+    <string name="teleshtaol">Teel-Eshtaa’ol</string>
+    <string name="about">Waa’ee Keenya</string>
+    <string name="about_detail">Application kun Gireet Komiishin Ministrii Itiyoophiyaan kan qophaa’e yoo ta’u, yaada dabalataa yookiin gaaffii yoo qabaattan lakkoofsa keenyaan nuuf barreessaa. </string>
+    <string name="yidewulu">Bilbilaa</string>
+    <string name="asteyayet">Yaada</string>
+    <string name="for_email">Gara :</string>
+    <string name="title">Mata-Duree :</string>
+    <string name="message">Ergaa</string>
 
+    <string name="write_comment">yaadaaf gaaffii qabdu barreessi!</string>
+    <string name="about_teleshtaol">Waajjira Gireet Komiishin Ministiriitti 0116174400 irratti bilbiluun ergaawwan barsiisoo ta’anii fi tajaajila gorsaas argachuu dandeessu. Dabalataanis yeroo hojiitti Wiixataa hanga Jimaataatti sa’a 3:00 hanga 11:00 tti bilbilaan ogeessota waa’ee gaa’ela duraa fi gaa’ela keessaa akkasumas kadhataa fi tajaajila hafuuraa biroos argachuu dandeessu.</string>
+
+
+    <string name="send">ላክ</string>
+    <string name="videos">የህይወት ምስክርነቶች</string>
 <!--    Yegziabher hiliwuna-->
     <string name="yegziabher_hiliwuna">Jiraachuu Waaqayyoo</string>
 
@@ -29,8 +43,8 @@
     <string name="wesibina_yefikir_ginignunet">Quunnamtii saalaa fi jaalala</string>
 
     <string name="wesibina_yefikir_guadegna">Quunnamtii saalaa fi jaalallee fedhuu</string>
-    <string name="lifers_yetekarebe_tidar">Gaa\’illi diigamuuf jedhu abdii qaba ta\’aa?</string>
-    <string name="yewesib_film_mirkogna">Fiilmii quunnamtii saalaatiin booji\’amuu</string>
+    <string name="lifers_yetekarebe_tidar">Gaa’illi diigamuuf jedhu abdii qaba ta’aa?</string>
+    <string name="yewesib_film_mirkogna">Fiilmii quunnamtii saalaatiin booji’amuu</string>
     <string name="ewunetegna_yesetoch_mebt_akibari">Mirga dubartootaa kan dhuguma kabaju</string>
 
 <!--    egzibaherin mawek-->

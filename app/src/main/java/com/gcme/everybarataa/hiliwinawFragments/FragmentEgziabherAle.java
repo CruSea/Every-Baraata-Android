@@ -16,7 +16,7 @@ import com.gcme.everybarataa.R;
  */
 public class FragmentEgziabherAle extends Fragment {
 
-    TextView t;
+    TextView t,t2;
 
 
     @Override
@@ -25,8 +25,10 @@ public class FragmentEgziabherAle extends Fragment {
 
         View view=inflater.inflate(R.layout.fragment_egziabher_ale, container, false);
         t = view.findViewById(R.id.tvone);
+        t2 = view.findViewById(R.id.tvOne2);
         Typeface tf=Typeface.createFromAsset(getActivity().getAssets(), "fonts/TimesNewRoman.ttf");
         t.setTypeface(tf);
+        t2.setTypeface(tf);
         return view;
     }
 

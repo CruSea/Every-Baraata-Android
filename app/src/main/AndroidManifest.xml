@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE"/>
 
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon_hascom"
@@ -112,23 +113,29 @@
         <activity
             android:name=".egziabherinMawekTabclass.EgziabherinMawek3"
             android:label="@string/egziabherin_mawek"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            >
         </activity>
-        <activity android:name=".WebView">
+        <activity android:name=".WebView"
+            >
 
         </activity>
         <activity android:name=".AboutUs"
             android:label="ስለ እኛ"
+            android:parentActivityName=".MainActivity"
+
             >
 
         </activity>
         <activity android:name=".Feedback"
             android:label="አስተያየት"
+            android:parentActivityName=".MainActivity"
+
             >
 
         </activity>
         <activity android:name=".TeleEshtaol"
-
+            android:parentActivityName=".MainActivity"
             android:label="ቴል_ኤሽታኦል">
 
         </activity>

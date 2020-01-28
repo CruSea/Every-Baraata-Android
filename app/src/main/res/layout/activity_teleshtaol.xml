@@ -32,11 +32,11 @@
     <Button
 
         android:id="@+id/call_teleshtaol"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:background="#ffffff"
-        android:text="ይደውሉ"
+        android:background="@drawable/button_stroke"
+        android:text="@string/yidewulu"
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="#e46315"
@@ -47,6 +47,7 @@
         android:id="@+id/webViewButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:layout_marginRight="20dp"
         android:background="@drawable/fb_like"
         android:layout_alignParentRight="true"

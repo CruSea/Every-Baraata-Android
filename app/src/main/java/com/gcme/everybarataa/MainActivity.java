@@ -76,7 +76,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.action_recents:
-                        Toast.makeText(MainActivity.this, "Recents", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(MainActivity.this, MainActivity.class));
+                       // Toast.makeText(MainActivity.this, "Recents", Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.action_favorites:
                         Toast.makeText(MainActivity.this, "Favorites", Toast.LENGTH_SHORT).show();
@@ -162,37 +163,47 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
         switch (v.getId()){
 
             case R.id.btnegziabherale:
-                startActivity(new Intent(MainActivity.this, Hiliwinaw.class));
+                Intent hilIntent = new Intent(MainActivity.this, Hiliwinaw.class);
+                startActivity(hilIntent);
 
                 break;
             case R.id.btn1egziabhermanew:
-                startActivity(new Intent(MainActivity.this, Hiliwinaw1.class));
+                Intent hilIntent1 = new Intent(MainActivity.this, Hiliwinaw1.class);
+                startActivity(hilIntent1);
 
                 break;
             case R.id.btn2yegziabhermenor:
-                startActivity(new Intent(MainActivity.this, Hiliwinaw2.class));
+                Intent hilIntent2 = new Intent(MainActivity.this, Hiliwinaw2.class);
+                startActivity(hilIntent2);
 
                 break;
             case R.id.btn3egzaleminyefeterew:
-                startActivity(new Intent(MainActivity.this, Hiliwinaw3.class));
+                Intent hilIntent3 = new Intent(MainActivity.this, Hiliwinaw3.class);
+                startActivity(hilIntent3);
                 break;
             case R.id.btn4silasenlitabrara:
-                startActivity(new Intent(MainActivity.this, Hiliwinaw4.class));
+                Intent hilIntent4 = new Intent(MainActivity.this, Hiliwinaw4.class);
+                startActivity(hilIntent4);
                 break;
             case R.id.btn5silase:
-                startActivity(new Intent(MainActivity.this, Hiliwinaw5.class));
+                Intent hilIntent5 = new Intent(MainActivity.this, Hiliwinaw5.class);
+                startActivity(hilIntent5);
                 break;
             case R.id.btn6hiyiwotkebadhone:
-                startActivity(new Intent(MainActivity.this, YehiwotTiyake.class));
+                Intent yehIntent = new Intent(MainActivity.this, YehiwotTiyake.class);
+                startActivity(yehIntent);
                 break;
             case R.id.btn7yehiwotealama:
-                startActivity(new Intent(MainActivity.this, YehiwotTiyake1.class));
+                Intent yehIntent1 = new Intent(MainActivity.this, YehiwotTiyake1.class);
+                startActivity(yehIntent1);
                 break;
             case R.id.btn8bechinksinikebeb:
-                startActivity(new Intent(MainActivity.this, YehiwotTiyake2.class));
+                Intent yehIntent2 = new Intent(MainActivity.this, YehiwotTiyake2.class);
+                startActivity(yehIntent2);
                 break;
             case R.id.btn12yefikirguadegnafilega:
-                startActivity(new Intent(MainActivity.this, FikirnaWesib.class));
+                Intent fikIntent = new Intent(MainActivity.this, FikirnaWesib.class);
+                startActivity(fikIntent);
                 break;
             case R.id.btn15yewesibfilmmirkogna:
                 startActivity(new Intent(MainActivity.this, FikirnaWesib7.class));
@@ -398,7 +409,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_aboutus, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 

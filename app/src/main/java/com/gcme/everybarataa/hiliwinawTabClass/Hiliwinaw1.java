@@ -6,7 +6,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.ShareActionProvider;
 import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -34,7 +33,7 @@ public class Hiliwinaw1 extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private ShareActionProvider myShareActionProvider;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,17 +50,6 @@ public class Hiliwinaw1 extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.tabs1);
         tabLayout.setupWithViewPager(viewPager);
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(Intent.ACTION_SEND);
-//                intent.setType("vnd.android-dir/mms-sms");
-//                intent.putExtra("address", "+251911202110");
-//                intent.putExtra("sms_body", "ሜሴጆን ይጻፉ!!!");
-//                startActivity(intent);
-//            }
-//        });
     }
 
     private void setupViewPager(ViewPager viewPager) {
@@ -79,34 +67,36 @@ public class Hiliwinaw1 extends AppCompatActivity {
         public Fragment getItem(int position) {
             Fragment fragment = null;
 
-                    if (position == 0) {
-                        fragment = new FragmentEgziabherManew();
-                        }
-                    if (position == 1) {
+            if (position == 0) {
+                fragment = new FragmentEgziabherManew();
+            }
+            if (position == 1) {
 
-                        fragment = new FragmentEgziabherAle();
-                        }
-                    if (position == 2) {
-                        fragment = new FragmentYegziabherMenor();
-                    }
+                fragment = new FragmentEgziabherAle();
+            }
+            if (position == 2) {
+                fragment = new FragmentYegziabherMenor();
+            }
 
-                    if (position == 3) {
-                        fragment = new FragmentFour();
-                    }
-                    if (position == 4) {
-                        fragment = new FragmentFive();
-                    }
+            if (position == 3) {
+                fragment = new FragmentFour();
+            }
+            if (position == 4) {
+                fragment = new FragmentFive();
+            }
 
-                    if (position == 5) {
-                        fragment = new FragmentSix();
-                    }
+            if (position == 5) {
+                fragment = new FragmentSix();
+            }
 
             return fragment;
         }
+
         @Override
         public int getCount() {
             return 6;
         }
+
         @Override
         public CharSequence getPageTitle(int position) {
             if (position == 0) {
@@ -131,8 +121,9 @@ public class Hiliwinaw1 extends AppCompatActivity {
             return null;
         }
     }
+
     @Override
-    public boolean onCreateOptionsMenu(Menu menu){
+    public boolean onCreateOptionsMenu(Menu menu) {
 
         getMenuInflater().inflate(R.menu.menu_aboutus, menu);
         return true;
