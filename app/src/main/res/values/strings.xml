@@ -47,7 +47,6 @@
     <string name="bechink_sinikebeb_link"></string>
 
     <!--    wesibina yefikir ginignunet-->
-    <string name="wesibina_yefikir_ginignunet_link"></string>
 
     <string name="wesibina_yefikir_guadegna_link"></string>
     <string name="lifers_yetekarebe_tidar_link"></string>
@@ -55,12 +54,11 @@
     <string name="ewunetegna_yesetoch_mebt_akibari_link"></string>
 
     <!--    egzibaherin mawek-->
-    <string name="egziabherin_mawek_link"></string>
 
-    <string name="egziabherin_begil_mawek_link"></string>
-    <string name="egziabher_tselotin_yimelisal_link"></string>
-    <string name="eyesus_manew_link"></string>
-    <string name="eyesus_lemin_mote_link"></string>
+    <string name="egziabherin_begil_mawek_link">https://www.everybarataa.com/a/personally.html</string>
+    <string name="egziabher_tselotin_yimelisal_link">https://www.everybarataa.com/a/prayers.html</string>
+    <string name="eyesus_manew_link">https://www.everybarataa.com/a/whowas.html</string>
+    <string name="eyesus_lemin_mote_link">https://www.everybarataa.com/a/whydid.html</string>
 
 
 
@@ -788,8 +786,6 @@ Indiriiyaas obboleessi Simoon Phexros, bartoota isaa keessaa tokko kan ture, Yes
 \n\nGuyyaan sun guyyaa itti qophaa’an; guyyaa sanbata isatti aanus guyyaa guddaa ture. Kanaaf dhagna warra fannifamanii, guyyaa Sanbataatti fannoo irra akka hin oolle gochuufdhaaf, lafeen miillan isaanii cabsamanii fannoo irraa akka gad buufamaniif, warri Yihudootaa Philaaxosin gaafatan.
 \n\nAkkasitti warri loltuu dhufanii, miilla namicha isa duraa kan isa isaa wajjin fannifamees in cabsan. Gara Yesus dhufanii, kanaan dura du’uu isaa yommuu argan garuu miilla isaa hin cabsine. Haa ta’u iyyuu malee, warra loltuu keessaa inni tokko eeboodhaan cinaacha isaa warannaan, yommusuma dhiigni fi bishaan keessa lolaa’ee.
 \n\nPhilaaxos tole jennaan Yoseef dhaqee reeffa Yesus fudhate. Niqoodemos immoo inni gaafa jalqabaa halkaniin Yesus bira dhufe waliin makaa qumbii fi sibirii naxirii dhibba tokko kan ta’u fuudhee iddoo sana dhaqe. Yommus reeffa Yesus fuudhanii akka amala awwaala Yihudootaatti, urgooftuu sana wajjin wayyaa quncee talbaa irraa hojjetameen kafanan. Lafa inni itti fannifamee sana immoo iddoon dhaaba tokko ture; iddoo dhaaba sanaa keessa awwaalli haaraan, kanaan dura namni keessatti hin awwaalamne tokko ture. Guyyaa warri Yihudootaa itti qophaa’an ta’e, awwaalichi dhi’ootti waan argameef, Yesusin achi keessa kaa’an.
-
-
 \n\n<b>Yohannis 20</b>
 \n\nGuyyaa jalqabaa torbaniitti (gaafa Sanbata guddaa) utuu dukkanaa’uutti jiru obboroodhaan, Maariyaam isheen Maqdala gara awwaalichaa dhuftee, dhagichi awwaalicha ittiin cufanii turan, awwaalicha irraa akka fuudhame argite. Isheen fiigaa gara Simoon Phexrosii fi gara bartuu isa kaan, isa Yesus jaallatee dhuftee, “Goofticha awwaala keessa fudhataniiru, eessa akka isa kaa’anis hin beeku!” jettee isaanitti himte.
 \n\nYemmus Phexrosii fi bartuun inni kaan ba’aanii, gara awwaalichaa dhaqan. Isaan lamaan walii wajjin fiigan; bartuun inni kaan garuu Phexros dura darbee fiigee, dafee awwaalicha bira ga’e. iinnis gad jedhee kafanniachi akka jiru arge malee, keessa hin lixne.
@@ -813,8 +809,6 @@ Indiriiyaas obboleessi Simoon Phexros, bartoota isaa keessaa tokko kan ture, Yes
 \n\nToomaasis, “Gooftaa koo, Waaqayyo koo!” jedhee deebiseef.
 \n\nYesus immoo, “Yaa Toomaas, waan ana argiteef amantee? Utuu anan hin argin kan amanan, attam haa gammadan!” ittiin jedhe.
 \n\nWaan Waaqayyo dabarsee sif kenne ilaali. “	Amantii jaama gararraa” isa jedhu ilaali. Ittiin jedhee.
-
-
 \n\nMacaafa Qulqulluu Afaan Oromoo isa haara irraa.
     </string>
     <string name="eyesus_lemin_mote_content">\n\nYesus maaliif du’ee? Duuni Yesus faayidaa maalii qabaa? Unuuf du’uus maaliif barbaachisee?
