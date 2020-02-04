@@ -1,37 +1,56 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="20dp"
     android:background="#ffffff"
-    android:orientation="vertical">
-    <TextView
+    android:paddingTop="10dp"
+
+    >
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/yehiwote_alama_mndnew"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:background="#ffffff"
-        android:textColor="#e46315"/>
+        android:orientation="vertical">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="20dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        tools:context="gcme.hascom.Fragments.Six">
         <TextView
             android:layout_width="match_parent"
-            android:id="@+id/tvEight"
-            android:textSize="18dp"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="@string/yehiwote_alama_mndnew_content"
             android:background="#ffffff"
-            android:textColor="#000000"  android:textIsSelectable="true"/>
+            android:text="@string/yehiwote_alama_mndnew"
+            android:textAlignment="center"
+            android:textColor="#e46315"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"
+            tools:context="gcme.hascom.Fragments.Six">
+
+            <TextView
+                android:id="@+id/tvEight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#ffffff"
+                android:text="@string/yehiwote_alama_mndnew_content"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="18dp" />
 
 
-    </ScrollView>
-</LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/ic_action_share" />
+</RelativeLayout>

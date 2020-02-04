@@ -40,18 +40,17 @@
     <string name="egziabher_yet_new_link">https://www.everybarataa.com/a/where.html</string>
 
     <!--    yehiwot tiyakewoch-->
-    <string name="yehiwot_tiyakewoch_link"></string>
 
-    <string name="hiwot_lemin_kebad_hone_link"></string>
-    <string name="yehiwote_alama_mndnew_link"></string>
-    <string name="bechink_sinikebeb_link"></string>
+    <string name="hiwot_lemin_kebad_hone_link">https://www.everybarataa.com/m/life.html</string>
+    <string name="yehiwote_alama_mndnew_link">https://www.everybarataa.com/a/purpose.html</string>
+    <string name="bechink_sinikebeb_link">https://www.everybarataa.com/a/tragedy.html</string>
 
     <!--    wesibina yefikir ginignunet-->
 
-    <string name="wesibina_yefikir_guadegna_link"></string>
-    <string name="lifers_yetekarebe_tidar_link"></string>
-    <string name="yewesib_film_mirkogna_link"></string>
-    <string name="ewunetegna_yesetoch_mebt_akibari_link"></string>
+    <string name="wesibina_yefikir_guadegna_link">https://www.everybarataa.com/a/intimacy.html</string>
+    <string name="lifers_yetekarebe_tidar_link">https://www.everybarataa.com/a/marriage.html</string>
+    <string name="yewesib_film_mirkogna_link">https://www.everybarataa.com/a/struggling.html</string>
+    <string name="ewunetegna_yesetoch_mebt_akibari_link">https://www.everybarataa.com/a/women.html</string>
 
     <!--    egzibaherin mawek-->
 
@@ -78,14 +77,14 @@
 <!--    yehiwot tiyakewoch-->
     <string name="yehiwot_tiyakewoch">Gaaffiiwwan jireenyaa</string>
 
-    <string name="hiwot_lemin_kebad_hone">Jireenyi maaliif jabaataa?</string>
-    <string name="yehiwote_alama_mndnew">Kaayyoon jiraachuu koo maalidhaa?</string>
-    <string name="bechink_sinikebeb">Gaafa dhiphinaan marfamnu Waaqayyo eessa jiraa?</string>
+    <string name="hiwot_lemin_kebad_hone">Jireenyi maaliif akkas ulfaatee?</string>
+    <string name="yehiwote_alama_mndnew">Kaayyoon jireenya koo maalidhaa?</string>
+    <string name="bechink_sinikebeb">Yommuun dhiphinaan marfamu Waaqayyo eessa jiraa?</string>
 
 <!--    wesibina yefikir ginignunet-->
     <string name="wesibina_yefikir_ginignunet">Quunnamtii saalaa fi jaalala</string>
 
-    <string name="wesibina_yefikir_guadegna">Quunnamtii saalaa fi jaalallee fedhuu</string>
+    <string name="wesibina_yefikir_guadegna">Barbaacha jaalallee fi quunnamtii saalaa</string>
     <string name="lifers_yetekarebe_tidar">Gaa’illi diigamuuf jedhu abdii qaba ta’aa?</string>
     <string name="yewesib_film_mirkogna">Fiilmii quunnamtii saalaatiin booji’amuu</string>
     <string name="ewunetegna_yesetoch_mebt_akibari">Mirga dubartootaa kan dhuguma kabaju</string>
