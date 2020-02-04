@@ -2,10 +2,12 @@ package com.gcme.everybarataa;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -40,22 +42,36 @@ public  class Feedback extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String to = textTo.getText().toString();
-                String subject = textSubject.getText().toString();
-                String message = textMessage.getText().toString();
+                if (TextUtils.isEmpty(textMessage.getText().toString())){
+                    Toast.makeText(Feedback.this, "Please Add Your Email!",
+                    Toast.LENGTH_SHORT).show();
 
-                Intent email = new Intent(Intent.ACTION_SEND);
-                email.putExtra(Intent.EXTRA_EMAIL, new String[]{to});
-              // email.putExtra(Intent.EXTRA_CC, new String[]{ to});
-                //email.putExtra(Intent.EXTRA_BCC, new String[]{to});
 
-                email.putExtra(Intent.EXTRA_TEXT, message);
-                email.putExtra(Intent.EXTRA_SUBJECT, subject);
+                }else {
 
-                //need this to prompts email client only
-                email.setType("message/rfc822");
+                    String to = textTo.getText().toString();
+                    String subject = textSubject.getText().toString();
+                    String message = textMessage.getText().toString();
 
-                startActivity(Intent.createChooser(email, "Choose  Email:"));
+                    Intent email = new Intent(Intent.ACTION_SEND);
+                    email.putExtra(Intent.EXTRA_EMAIL, new String[]{to});
+                    // email.putExtra(Intent.EXTRA_CC, new String[]{ to});
+                    //email.putExtra(Intent.EXTRA_BCC, new String[]{to});
+
+                    email.putExtra(Intent.EXTRA_TEXT, message);
+                    email.putExtra(Intent.EXTRA_SUBJECT, subject);
+
+                    //need this to prompts email client only
+                    email.setType("message/rfc822");
+
+                    startActivity(Intent.createChooser(email, "Choose  Email:"));
+
+//                    Toast.makeText(Feedback.this,
+//                            "Sending..",
+//                            Toast.LENGTH_SHORT).show();
+
+                }
+
 
 
             }

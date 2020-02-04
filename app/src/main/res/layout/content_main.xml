@@ -321,7 +321,7 @@
                         android:layout_height="wrap_content">
                         <Button
 
-                            android:text="ደስታን ተስፋን ፍለጋ•••"
+                            android:text="@string/movie_title_one"
                             android:id="@+id/btn32yehiwotmisikirinetoch"
                             android:layout_margin="2dip"
                             android:padding="5dip"
@@ -331,44 +331,8 @@
                             android:layout_height="wrap_content"/>
                         <Button
 
-                            android:text="ሁሉንም አየሁት ግን ..."
+                            android:text="@string/movie_title_two"
                             android:id="@+id/btn33yegilyehiwotmisikirinetoch"
-                            android:layout_margin="2dip"
-                            android:padding="5dip"
-                            android:textColor="#e46315"
-                            android:background="@drawable/in_button"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"/>
-                        <Button
-                            android:text="ህይወቴ ተለወጠ ..... እንዴት"
-                            android:id="@+id/btn34yegilyehiwotmisikirinetoch"
-                            android:layout_margin="2dip"
-                            android:padding="5dip"
-                            android:textColor="#e46315"
-                            android:background="@drawable/in_button"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"/>
-                        <Button
-                            android:text="ኢየሱስ ህይወቴን ለወጠው"
-                            android:id="@+id/btn35yegilyehiwotmisikirinetoch"
-                            android:layout_margin="2dip"
-                            android:padding="5dip"
-                            android:textColor="#e46315"
-                            android:background="@drawable/in_button"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"/>
-                        <Button
-                            android:text="ያመለጠ"
-                            android:id="@+id/btn36yegilyehiwotmisikirinetoch"
-                            android:layout_margin="2dip"
-                            android:padding="5dip"
-                            android:textColor="#e46315"
-                            android:background="@drawable/in_button"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"/>
-                        <Button
-                            android:text="እየሱስን እንዲህ ነው ያገኘውት"
-                            android:id="@+id/btn37yegilyehiwotmisikirinetoch"
                             android:layout_margin="2dip"
                             android:padding="5dip"
                             android:textColor="#e46315"

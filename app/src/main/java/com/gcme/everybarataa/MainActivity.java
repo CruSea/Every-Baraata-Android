@@ -18,12 +18,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
-import com.gcme.everybarataa.activityFilmoch.Fourty;
 import com.gcme.everybarataa.activityFilmoch.Thirty5;
 import com.gcme.everybarataa.activityFilmoch.Thirty6;
-import com.gcme.everybarataa.activityFilmoch.Thirty7;
-import com.gcme.everybarataa.activityFilmoch.Thirty8;
-import com.gcme.everybarataa.activityFilmoch.Thirty9;
 import com.gcme.everybarataa.egziabherinMawekTabclass.EgziabherinMawek;
 import com.gcme.everybarataa.egziabherinMawekTabclass.EgziabherinMawek1;
 import com.gcme.everybarataa.egziabherinMawekTabclass.EgziabherinMawek2;
@@ -54,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
     View openLayout;
     private Button button, button1,button2,button3,button4,button5,button6,button7,button8,button12,button15,
             button17,button22,button24,button25,button26,button27,button32,
-            button33,button34,button35,button36,button37;
+            button33;
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -116,10 +112,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
         button27 =  findViewById(R.id.btn27eyesusamilaknew);
         button32 =  findViewById(R.id.btn32yehiwotmisikirinetoch);
         button33 =  findViewById(R.id.btn33yegilyehiwotmisikirinetoch);
-        button34 =  findViewById(R.id.btn34yegilyehiwotmisikirinetoch);
-        button35 =  findViewById(R.id.btn35yegilyehiwotmisikirinetoch);
-        button36 =  findViewById(R.id.btn36yegilyehiwotmisikirinetoch);
-        button37 =  findViewById(R.id.btn37yegilyehiwotmisikirinetoch);
 
         text1 =  findViewById(R.id.tv1yegziabherhiliwina);
         text2 =  findViewById(R.id.tv2yehiwottiyake);
@@ -151,10 +143,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
         button27.setOnClickListener(this);
         button32.setOnClickListener(this);
         button33.setOnClickListener(this);
-        button34.setOnClickListener(this);
-        button35.setOnClickListener(this);
-        button36.setOnClickListener(this);
-        button37.setOnClickListener(this);
 
 
 
@@ -232,18 +220,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
                 break;
             case R.id.btn33yegilyehiwotmisikirinetoch:
                 startActivity(new Intent(MainActivity.this, Thirty6.class));
-                break;
-            case R.id.btn34yegilyehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Thirty7.class));
-                break;
-            case R.id.btn35yegilyehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Thirty8.class));
-                break;
-            case R.id.btn36yegilyehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Thirty9.class));
-                break;
-            case R.id.btn37yegilyehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Fourty.class));
                 break;
 
 

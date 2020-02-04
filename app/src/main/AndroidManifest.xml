@@ -144,18 +144,6 @@
         <activity android:name=".activityFilmoch.Thirty6"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name=".activityFilmoch.Thirty7"
-            android:label="ፊልሞች ይመልከቱ">
-        </activity>
-        <activity android:name=".activityFilmoch.Thirty8"
-            android:label="ፊልሞች ይመልከቱ">
-        </activity>
-        <activity android:name=".activityFilmoch.Thirty9"
-            android:label="ፊልሞች ይመልከቱ">
-        </activity>
-        <activity android:name=".activityFilmoch.Fourty"
-            android:label="ፊልሞች ይመልከቱ">
-        </activity>
 
     </application>
 

@@ -97,9 +97,14 @@ public class YehiwotTiyake extends AppCompatActivity {
                 return getResources().getString(R.string.bechink_sinikebeb);
             }
 
-
             return null;
         }
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 
 }

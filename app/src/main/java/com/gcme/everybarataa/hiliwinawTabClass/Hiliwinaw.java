@@ -132,53 +132,10 @@ public class Hiliwinaw extends AppCompatActivity {
         }
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//
-//        getMenuInflater().inflate(R.menu.menu_aboutus, menu);
-//        return true;
-//
-//    }
-
-
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//
-//        //  int id = item.getItemId();
-//
-//        if (item.getItemId() == R.id.menu_share) {
-//            String shareBody = "https://www.habeshastudent.com/m/existence.html";
-//            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-//            sharingIntent.setType("text/plain");
-//            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "SUBJECT");
-//            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
-//            startActivity(Intent.createChooser(sharingIntent, "choose one"));
-//
-//
-//        } else if (item.getItemId() == R.id.call) {
-//
-//            Intent myIntent = new Intent(Hiliwinaw.this, TeleEshtaol.class);
-//            startActivity(myIntent);
-//        } else if (item.getItemId() == R.id.feedback) {
-//
-//            Intent myIntent = new Intent(Hiliwinaw.this, Feedback.class);
-//            startActivity(myIntent);
-//        } else if (item.getItemId() == R.id.aboutus) {
-//
-//            Intent myIntent = new Intent(Hiliwinaw.this, AboutUs.class);
-//            startActivity(myIntent);
-//        }
-//        return true;
-//    }
-//
-//    @Override
-//    public void onBackPressed()
-//    {
-//        // super.onBackPressed();
-//         finish();
-//        startActivity(new Intent(Hiliwinaw.this, MainActivity.class));
-//
-//
-//    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
 
 }

@@ -103,5 +103,9 @@ public class YehiwotTiyake1 extends AppCompatActivity {
             return null;
         }
     }
-
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
 }

@@ -25,7 +25,7 @@
 
 
     <string name="send">Ergi</string>
-    <string name="videos">የህይወት ምስክርነቶች</string>
+    <string name="videos">Dhuga Ba’iinsa</string>
 
 
 <!--    Share links-->
@@ -61,9 +61,17 @@
 
 
 
+<!--    Video name  array -->
+    <string name="movie_title_one">Namni maraate akkamitti fayye?</string>
+    <string name="movie_title_two">Rakkina dubbachuun qaban ture..</string>
 
 
-<!--    Yegziabher hiliwuna-->
+<!--    video link arrays -->
+    <string name="movie_title_one_link">https://www.youtube.com/watch?v=UHH5qcctg10</string>
+    <string name="movie_title_two_link">https://www.youtube.com/watch?v=ySYWtBx9NgA</string>
+
+
+    <!--    Yegziabher hiliwuna-->
     <string name="yegziabher_hiliwuna">Jiraachuu Waaqayyoo</string>
 
     <string name="egziabher_ale_title">Waaqayyo ni jiraa?</string>

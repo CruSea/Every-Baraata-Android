@@ -105,7 +105,11 @@ public class FikirnaWesib10 extends AppCompatActivity {
             return null;
         }
     }
-
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
 
 }
 
