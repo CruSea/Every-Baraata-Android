@@ -106,48 +106,5 @@ public class FikirnaWesib7 extends AppCompatActivity {
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu){
 
-// Inflate the menu; this adds items to the action bar if it is present.
-
-        getMenuInflater().inflate(R.menu.menu_aboutus, menu);
-
-        return true;
-
-
-    }
-
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        int id = item.getItemId();
-
-        if (id == R.id.menu_share) {
-
-            String shareBody = "https://www.habeshastudent.com/m/relationships.html";
-            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-            sharingIntent.setType("text/plain");
-            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "SUBJECT");
-            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
-            startActivity(Intent.createChooser(sharingIntent, "choose one"));
-
-
-        }else if (id == R.id.call) {
-
-            Intent myIntent = new Intent(this, TeleEshtaol.class);
-            startActivity(myIntent);
-        }else if (id == R.id.feedback) {
-
-            Intent myIntent = new Intent(this, Feedback.class);
-            startActivity(myIntent);
-        }else if (id == R.id.aboutus) {
-
-            Intent myIntent = new Intent(this, AboutUs.class);
-            startActivity(myIntent);
-        }
-
-        return true;
-    }
 }

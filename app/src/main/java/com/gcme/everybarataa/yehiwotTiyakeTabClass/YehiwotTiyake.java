@@ -49,17 +49,6 @@ public class YehiwotTiyake extends AppCompatActivity {
         tabLayout =  findViewById(R.id.tabs6);
         tabLayout.setupWithViewPager(viewPager);
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(Intent.ACTION_SEND);
-//                intent.setType("vnd.android-dir/mms-sms");
-//                intent.putExtra("address", "+251911202110");
-//                intent.putExtra("sms_body", "ሜሴጆን ይጻፉ!!!");
-//                startActivity(intent);
-//            }
-//        });
     }
 
     private void setupViewPager(ViewPager viewPager) {
@@ -112,48 +101,5 @@ public class YehiwotTiyake extends AppCompatActivity {
             return null;
         }
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu){
 
-// Inflate the menu; this adds items to the action bar if it is present.
-
-        getMenuInflater().inflate(R.menu.menu_aboutus, menu);
-
-        return true;
-
-
-    }
-
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        int id = item.getItemId();
-
-        if (id == R.id.menu_share) {
-
-            String shareBody = "https://www.habeshastudent.com/m/life.html";
-            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-            sharingIntent.setType("text/plain");
-            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "SUBJECT");
-            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
-            startActivity(Intent.createChooser(sharingIntent, "choose one"));
-
-
-        }else if (id == R.id.call) {
-
-            Intent myIntent = new Intent(this, TeleEshtaol.class);
-            startActivity(myIntent);
-        }else if (id == R.id.feedback) {
-
-            Intent myIntent = new Intent(this, Feedback.class);
-            startActivity(myIntent);
-        }else if (id == R.id.aboutus) {
-
-            Intent myIntent = new Intent(this, AboutUs.class);
-            startActivity(myIntent);
-        }
-
-        return true;
-    }
 }
