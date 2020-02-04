@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "467951038614",
+    "firebase_url": "https://ebcom-89918.firebaseio.com",
+    "project_id": "ebcom-89918",
+    "storage_bucket": "ebcom-89918.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467951038614:android:f795707aca381a46bc52b7",
+        "android_client_info": {
+          "package_name": "com.gcme.everybarataa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467951038614-ocm9vsm67k9eai2k0nds6qlpc6oe6hsr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gcme.everybarataa",
+            "certificate_hash": "6d8f4d2ee466cd814dcc016cc7373f65bd54870a"
+          }
+        },
+        {
+          "client_id": "467951038614-0hutun2schjq5th7kngni37phj8o27bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj3nb5zv0BF4oHe3wHVKdOSnqbTTEYv9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467951038614-0hutun2schjq5th7kngni37phj8o27bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

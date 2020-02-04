@@ -138,10 +138,10 @@
             android:label="ቴል_ኤሽታኦል">
 
         </activity>
-        <activity android:name=".activityFilmoch.Thirty5"
+        <activity android:name=".activityFilmoch.VideosOneActivity"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name=".activityFilmoch.Thirty6"
+        <activity android:name=".activityFilmoch.VideosTwoActivity"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
 

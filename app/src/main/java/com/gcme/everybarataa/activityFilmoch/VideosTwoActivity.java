@@ -25,7 +25,7 @@ import com.gcme.everybarataa.TeleEshtaol;
 /**
  * Created by buty on 1/4/16.
  */
-public class Thirty6 extends AppCompatActivity {
+public class VideosTwoActivity extends AppCompatActivity {
 
     //@RequiresApi(api = Build.VERSION_CODES.P)
     @Override

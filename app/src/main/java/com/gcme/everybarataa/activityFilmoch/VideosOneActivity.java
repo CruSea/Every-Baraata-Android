@@ -17,7 +17,7 @@ import com.gcme.everybarataa.R;
 /**
  * Created by buty on 1/4/16.
  */
-public class Thirty5 extends AppCompatActivity {
+public class VideosOneActivity extends AppCompatActivity {
 
     //@RequiresApi(api = Build.VERSION_CODES.P)
     @Override

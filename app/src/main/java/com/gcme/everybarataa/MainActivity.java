@@ -18,8 +18,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
-import com.gcme.everybarataa.activityFilmoch.Thirty5;
-import com.gcme.everybarataa.activityFilmoch.Thirty6;
+import com.gcme.everybarataa.activityFilmoch.VideosOneActivity;
+import com.gcme.everybarataa.activityFilmoch.VideosTwoActivity;
 import com.gcme.everybarataa.egziabherinMawekTabclass.EgziabherinMawek;
 import com.gcme.everybarataa.egziabherinMawekTabclass.EgziabherinMawek1;
 import com.gcme.everybarataa.egziabherinMawekTabclass.EgziabherinMawek2;
@@ -38,10 +38,12 @@ import com.gcme.everybarataa.yehiwotTiyakeTabClass.YehiwotTiyake;
 import com.gcme.everybarataa.yehiwotTiyakeTabClass.YehiwotTiyake1;
 import com.gcme.everybarataa.yehiwotTiyakeTabClass.YehiwotTiyake2;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 
 public class MainActivity extends AppCompatActivity implements OnClickListener
 {
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     Toolbar toolbar;
 
@@ -57,6 +59,8 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         toolbar =  findViewById(R.id.toolbar_home);
         setSupportActionBar(toolbar);
@@ -216,10 +220,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
                 startActivity(new Intent(MainActivity.this, EgziabherinMawek3.class));
                 break;
             case R.id.btn32yehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Thirty5.class));
+                startActivity(new Intent(MainActivity.this, VideosOneActivity.class));
                 break;
             case R.id.btn33yegilyehiwotmisikirinetoch:
-                startActivity(new Intent(MainActivity.this, Thirty6.class));
+                startActivity(new Intent(MainActivity.this, VideosTwoActivity.class));
                 break;
 
 
