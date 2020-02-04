@@ -1,4 +1,4 @@
-package com.gcme.everybarataa.ActivityFilmoch;
+package com.gcme.everybarataa.activityFilmoch;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -22,22 +22,22 @@ import com.gcme.everybarataa.TeleEshtaol;
 /**
  * Created by buty on 1/4/16.
  */
-public class Thirty8 extends AppCompatActivity {
+public class Thirty6 extends AppCompatActivity {
 
-    android.webkit.WebView web4;
-    ProgressBar progressBar4;
+    android.webkit.WebView web2;
+    ProgressBar progressBar2;
     private ShareActionProvider myShareActionProvider;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.filmoch38);
+        setContentView(R.layout.filmoch36);
 
-        web4 = (android.webkit.WebView) findViewById(R.id.wvFilmoch38);
-        progressBar4 = (ProgressBar) findViewById(R.id.pbFilmoch38);
+        web2 = (android.webkit.WebView) findViewById(R.id.wvFilmoch36);
+        progressBar2 = (ProgressBar) findViewById(R.id.pbFilmoch36);
 
-        web4.setWebViewClient(new myWebClient());
-        web4.getSettings().setJavaScriptEnabled(true);
-        web4.loadUrl("https://www.youtube.com/watch?v=Z5hZ2Wpn8ao&list=PL5kXjOnjug3O_vDc4QbbwP9R496-OmIiQ&index=6");
+        web2.setWebViewClient(new myWebClient());
+        web2.getSettings().setJavaScriptEnabled(true);
+        web2.loadUrl("https://www.youtube.com/watch?v=UOnA-P0SSjc&list=PL5kXjOnjug3O_vDc4QbbwP9R496-OmIiQ&index=2");
 
     }
 
@@ -48,7 +48,7 @@ public class Thirty8 extends AppCompatActivity {
         public void onPageFinished(android.webkit.WebView view, String url) {
             // TODO Auto-generated method stub
             super.onPageFinished(view, url);
-            progressBar4.setVisibility(View.GONE);
+            progressBar2.setVisibility(View.GONE);
         }
 
         @Override
@@ -70,9 +70,9 @@ public class Thirty8 extends AppCompatActivity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         // TODO Auto-generated method stub
-        if((keyCode == KeyEvent.KEYCODE_BACK) && web4.canGoBack())
+        if((keyCode == KeyEvent.KEYCODE_BACK) && web2.canGoBack())
         {
-            web4.goBack();
+            web2.goBack();
             return true;
         }
         return super.onKeyDown(keyCode, event);
@@ -108,6 +108,7 @@ public class Thirty8 extends AppCompatActivity {
 
     }
 
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
@@ -128,3 +129,4 @@ public class Thirty8 extends AppCompatActivity {
     }
 
 }
+

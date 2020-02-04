@@ -2,14 +2,15 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:background="#ffffff"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
     android:layout_centerInParent="true"
     android:paddingLeft="10dp"
     android:paddingRight="10dp"
     android:paddingTop="10dp"
-    android:paddingBottom="10dp">
+    android:paddingBottom="10dp"
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -389,7 +390,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_menu"
-        app:itemBackground="@color/colorPrimary"
+        app:itemBackground="@color/colorPrimaryDark"
         app:itemIconTint="@android:color/white"
+        app:labelVisibilityMode="labeled"
         app:itemTextColor="@android:color/white" />
 </RelativeLayout>

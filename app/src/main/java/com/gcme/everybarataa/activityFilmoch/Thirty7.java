@@ -1,4 +1,4 @@
-package com.gcme.everybarataa.ActivityFilmoch;
+package com.gcme.everybarataa.activityFilmoch;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -22,62 +22,61 @@ import com.gcme.everybarataa.TeleEshtaol;
 /**
  * Created by buty on 1/4/16.
  */
-public class Thirty6 extends AppCompatActivity {
+public class Thirty7 extends AppCompatActivity {
 
-    android.webkit.WebView web2;
-    ProgressBar progressBar2;
+        android.webkit.WebView web3;
+        ProgressBar progressBar3;
     private ShareActionProvider myShareActionProvider;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+@Override
+protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.filmoch36);
+        setContentView(R.layout.filmoch37);
 
-        web2 = (android.webkit.WebView) findViewById(R.id.wvFilmoch36);
-        progressBar2 = (ProgressBar) findViewById(R.id.pbFilmoch36);
+        web3 = (android.webkit.WebView) findViewById(R.id.wvFilmoch37);
+        progressBar3 = (ProgressBar) findViewById(R.id.pbFilmoch37);
 
-        web2.setWebViewClient(new myWebClient());
-        web2.getSettings().setJavaScriptEnabled(true);
-        web2.loadUrl("https://www.youtube.com/watch?v=UOnA-P0SSjc&list=PL5kXjOnjug3O_vDc4QbbwP9R496-OmIiQ&index=2");
+        web3.setWebViewClient(new myWebClient());
+        web3.getSettings().setJavaScriptEnabled(true);
+        web3.loadUrl("https://www.youtube.com/watch?v=LjDBJVk5d0M&index=4&list=PL5kXjOnjug3O_vDc4QbbwP9R496-OmIiQ");
 
+        }
+
+public class myWebClient extends WebViewClient
+{
+
+    @Override
+    public void onPageFinished(android.webkit.WebView view, String url) {
+        // TODO Auto-generated method stub
+        super.onPageFinished(view, url);
+        progressBar3.setVisibility(View.GONE);
     }
 
-    public class myWebClient extends WebViewClient
-    {
-
-        @Override
-        public void onPageFinished(android.webkit.WebView view, String url) {
-            // TODO Auto-generated method stub
-            super.onPageFinished(view, url);
-            progressBar2.setVisibility(View.GONE);
-        }
-
-        @Override
-        public void onPageStarted(android.webkit.WebView view, String url, Bitmap favicon) {
-            // TODO Auto-generated method stub
-            super.onPageStarted(view, url, favicon);
-        }
-
-        @Override
-        public boolean shouldOverrideUrlLoading(android.webkit.WebView view, String url) {
-            // TODO Auto-generated method stub
-            view.loadUrl(url);
-            return true;
-        }
-
+    @Override
+    public void onPageStarted(android.webkit.WebView view, String url, Bitmap favicon) {
+        // TODO Auto-generated method stub
+        super.onPageStarted(view, url, favicon);
     }
+
+    @Override
+    public boolean shouldOverrideUrlLoading(android.webkit.WebView view, String url) {
+        // TODO Auto-generated method stub
+        view.loadUrl(url);
+        return true;
+    }
+
+}
 
     // To handle "Back" key press event for WebView to go back to previous screen.
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         // TODO Auto-generated method stub
-        if((keyCode == KeyEvent.KEYCODE_BACK) && web2.canGoBack())
+        if((keyCode == KeyEvent.KEYCODE_BACK) && web3.canGoBack())
         {
-            web2.goBack();
+            web3.goBack();
             return true;
         }
         return super.onKeyDown(keyCode, event);
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
 
@@ -128,5 +127,5 @@ public class Thirty6 extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-}
 
+}

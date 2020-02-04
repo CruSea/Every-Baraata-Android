@@ -2,11 +2,16 @@ package com.gcme.everybarataa;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 /**
  * Created by buty on 1/4/16.
@@ -55,6 +60,31 @@ public  class Feedback extends AppCompatActivity {
 
             }
 
+        });
+
+        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation_feedback);
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.menu_home:
+                        startActivity(new Intent(Feedback.this, MainActivity.class));
+                        Animatoo.animateSplit(Feedback.this);
+                        break;
+                    case R.id.menu_teleshataol:
+                        startActivity(new Intent(Feedback.this, TeleEshtaol.class));
+                        Animatoo.animateSplit(Feedback.this);
+                        break;
+                    case R.id.menu_contact_us:
+                       // startActivity(new Intent(Feedback.this, Feedback.class));
+                        break;
+                    case R.id.menu_about:
+                        startActivity(new Intent(Feedback.this, AboutUs.class));
+                        Animatoo.animateSplit(Feedback.this);
+                        break;
+                }
+                return true;
+            }
         });
     }
 

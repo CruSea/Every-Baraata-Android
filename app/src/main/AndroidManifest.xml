@@ -31,89 +31,88 @@
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw"
             android:label="@string/yegziabher_hiliwuna"
-            android:parentActivityName=".MainActivity"
             >
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw1"
             android:label="@string/yegziabher_hiliwuna"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw2"
             android:label="@string/yegziabher_hiliwuna"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw3"
             android:label="@string/yegziabher_hiliwuna"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw4"
             android:label="@string/yegziabher_hiliwuna"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".hiliwinawTabClass.Hiliwinaw5"
             android:label="@string/yegziabher_hiliwuna"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".yehiwotTiyakeTabClass.YehiwotTiyake"
             android:label="@string/yehiwot_tiyakewoch"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".yehiwotTiyakeTabClass.YehiwotTiyake1"
             android:label="@string/yehiwot_tiyakewoch"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".yehiwotTiyakeTabClass.YehiwotTiyake2"
             android:label="@string/yehiwot_tiyakewoch"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
 
         <activity
             android:name=".fikirinawesibTabClass.FikirnaWesib"
             android:label="@string/wesibina_yefikir_ginignunet"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".fikirinawesibTabClass.FikirnaWesib5"
             android:label="@string/wesibina_yefikir_ginignunet"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".fikirinawesibTabClass.FikirnaWesib7"
             android:label="@string/wesibina_yefikir_ginignunet"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".fikirinawesibTabClass.FikirnaWesib10"
             android:label="@string/wesibina_yefikir_ginignunet"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".egziabherinMawekTabclass.EgziabherinMawek"
             android:label="@string/egziabherin_mawek"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".egziabherinMawekTabclass.EgziabherinMawek1"
             android:label="@string/egziabherin_mawek"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".egziabherinMawekTabclass.EgziabherinMawek2"
             android:label="@string/egziabherin_mawek"
-            android:parentActivityName=".MainActivity">
+            >
         </activity>
         <activity
             android:name=".egziabherinMawekTabclass.EgziabherinMawek3"
             android:label="@string/egziabherin_mawek"
-            android:parentActivityName=".MainActivity"
+            
             >
         </activity>
         <activity android:name=".WebView"
@@ -122,39 +121,39 @@
         </activity>
         <activity android:name=".AboutUs"
             android:label="ስለ እኛ"
-            android:parentActivityName=".MainActivity"
+            
 
             >
 
         </activity>
         <activity android:name=".Feedback"
             android:label="አስተያየት"
-            android:parentActivityName=".MainActivity"
+            
 
             >
 
         </activity>
         <activity android:name=".TeleEshtaol"
-            android:parentActivityName=".MainActivity"
+            
             android:label="ቴል_ኤሽታኦል">
 
         </activity>
-        <activity android:name=".ActivityFilmoch.Thirty5"
+        <activity android:name=".activityFilmoch.Thirty5"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name=".ActivityFilmoch.Thirty6"
+        <activity android:name=".activityFilmoch.Thirty6"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name=".ActivityFilmoch.Thirty7"
+        <activity android:name=".activityFilmoch.Thirty7"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name=".ActivityFilmoch.Thirty8"
+        <activity android:name=".activityFilmoch.Thirty8"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name=".ActivityFilmoch.Thirty9"
+        <activity android:name=".activityFilmoch.Thirty9"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
-        <activity android:name=".ActivityFilmoch.Fourty"
+        <activity android:name=".activityFilmoch.Fourty"
             android:label="ፊልሞች ይመልከቱ">
         </activity>
 

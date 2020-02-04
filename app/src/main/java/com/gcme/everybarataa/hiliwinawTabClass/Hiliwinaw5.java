@@ -136,40 +136,40 @@ public class Hiliwinaw5 extends AppCompatActivity {
             return null;
         }
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu){
-
-        getMenuInflater().inflate(R.menu.menu_aboutus, menu);
-        return true;
-
-    }
-
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        if (item.getItemId() == R.id.menu_share) {
-            String shareBody = "https://www.habeshastudent.com/m/existence.html";
-            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-            sharingIntent.setType("text/plain");
-            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "SUBJECT");
-            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
-            startActivity(Intent.createChooser(sharingIntent, "choose one"));
-        }
-
-        if (item.getItemId() == R.id.call) {
-            startActivity(new Intent(this, TeleEshtaol.class));
-            return true;
-        }
-        if (item.getItemId() == R.id.feedback) {
-            startActivity(new Intent(this, Feedback.class));
-            return true;
-        }
-        if (item.getItemId() == R.id.aboutus) {
-            startActivity(new Intent(this, AboutUs.class));
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu){
+//
+//        getMenuInflater().inflate(R.menu.menu_aboutus, menu);
+//        return true;
+//
+//    }
+//
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//
+//        if (item.getItemId() == R.id.menu_share) {
+//            String shareBody = "https://www.habeshastudent.com/m/existence.html";
+//            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+//            sharingIntent.setType("text/plain");
+//            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "SUBJECT");
+//            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
+//            startActivity(Intent.createChooser(sharingIntent, "choose one"));
+//        }
+//
+//        if (item.getItemId() == R.id.call) {
+//            startActivity(new Intent(this, TeleEshtaol.class));
+//            return true;
+//        }
+//        if (item.getItemId() == R.id.feedback) {
+//            startActivity(new Intent(this, Feedback.class));
+//            return true;
+//        }
+//        if (item.getItemId() == R.id.aboutus) {
+//            startActivity(new Intent(this, AboutUs.class));
+//            return true;
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 }

@@ -1,4 +1,4 @@
-package com.gcme.everybarataa.ActivityFilmoch;
+package com.gcme.everybarataa.activityFilmoch;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -22,22 +22,22 @@ import com.gcme.everybarataa.TeleEshtaol;
 /**
  * Created by buty on 1/4/16.
  */
-public class Thirty9 extends AppCompatActivity {
+public class Fourty extends AppCompatActivity {
 
-    android.webkit.WebView web5;
-    ProgressBar progressBar5;
+    android.webkit.WebView web6;
+    ProgressBar progressBar6;
     private ShareActionProvider myShareActionProvider;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.filmoch39);
+        setContentView(R.layout.filmoch40);
 
-        web5 = (android.webkit.WebView) findViewById(R.id.wvFilmoch39);
-        progressBar5 = (ProgressBar) findViewById(R.id.pbFilmoch39);
+        web6 = (android.webkit.WebView) findViewById(R.id.wvFilmoch40);
+        progressBar6 = (ProgressBar) findViewById(R.id.pbFilmoch40);
 
-        web5.setWebViewClient(new myWebClient());
-        web5.getSettings().setJavaScriptEnabled(true);
-        web5.loadUrl("https://www.youtube.com/watch?v=nvTeDX8jZdw&list=PL5kXjOnjug3O_vDc4QbbwP9R496-OmIiQ&index=7");
+        web6.setWebViewClient(new myWebClient());
+        web6.getSettings().setJavaScriptEnabled(true);
+        web6.loadUrl("https://www.youtube.com/watch?v=Gd2d-IWB4Nc&list=PL5kXjOnjug3O_vDc4QbbwP9R496-OmIiQ&index=8");
 
     }
 
@@ -48,7 +48,7 @@ public class Thirty9 extends AppCompatActivity {
         public void onPageFinished(android.webkit.WebView view, String url) {
             // TODO Auto-generated method stub
             super.onPageFinished(view, url);
-            progressBar5.setVisibility(View.GONE);
+            progressBar6.setVisibility(View.GONE);
         }
 
         @Override
@@ -70,22 +70,19 @@ public class Thirty9 extends AppCompatActivity {
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         // TODO Auto-generated method stub
-        if((keyCode == KeyEvent.KEYCODE_BACK) && web5.canGoBack())
+        if((keyCode == KeyEvent.KEYCODE_BACK) && web6.canGoBack())
         {
-            web5.goBack();
+            web6.goBack();
             return true;
         }
         return super.onKeyDown(keyCode, event);
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
 
-// Inflate the menu; this adds items to the action bar if it is present.
 
         getMenuInflater().inflate(R.menu.menu_aboutus, menu);
 
-// Inflate the menu; this adds items to the action bar if it is present.
 
         MenuItem shareItem = menu.findItem(R.id.menu_share);
         myShareActionProvider = (ShareActionProvider) MenuItemCompat.getActionProvider(shareItem);
@@ -127,5 +124,6 @@ public class Thirty9 extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 
 }

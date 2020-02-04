@@ -1,10 +1,8 @@
 package com.gcme.everybarataa;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -14,18 +12,18 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.gcme.everybarataa.ActivityFilmoch.Fourty;
-import com.gcme.everybarataa.ActivityFilmoch.Thirty5;
-import com.gcme.everybarataa.ActivityFilmoch.Thirty6;
-import com.gcme.everybarataa.ActivityFilmoch.Thirty7;
-import com.gcme.everybarataa.ActivityFilmoch.Thirty8;
-import com.gcme.everybarataa.ActivityFilmoch.Thirty9;
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
+import com.gcme.everybarataa.activityFilmoch.Fourty;
+import com.gcme.everybarataa.activityFilmoch.Thirty5;
+import com.gcme.everybarataa.activityFilmoch.Thirty6;
+import com.gcme.everybarataa.activityFilmoch.Thirty7;
+import com.gcme.everybarataa.activityFilmoch.Thirty8;
+import com.gcme.everybarataa.activityFilmoch.Thirty9;
 import com.gcme.everybarataa.egziabherinMawekTabclass.EgziabherinMawek;
 import com.gcme.everybarataa.egziabherinMawekTabclass.EgziabherinMawek1;
 import com.gcme.everybarataa.egziabherinMawekTabclass.EgziabherinMawek2;
@@ -67,23 +65,26 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
         toolbar =  findViewById(R.id.toolbar_home);
         setSupportActionBar(toolbar);
 
-      //  getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
-                    case R.id.action_recents:
-                        startActivity(new Intent(MainActivity.this, MainActivity.class));
+                    case R.id.menu_home:
+                        //startActivity(new Intent(MainActivity.this, MainActivity.class));
                        // Toast.makeText(MainActivity.this, "Recents", Toast.LENGTH_SHORT).show();
                         break;
-                    case R.id.action_favorites:
-                        Toast.makeText(MainActivity.this, "Favorites", Toast.LENGTH_SHORT).show();
+                    case R.id.menu_teleshataol:
+                        startActivity(new Intent(MainActivity.this, TeleEshtaol.class));
+                        Animatoo.animateSplit(MainActivity.this);
                         break;
-                    case R.id.action_nearby:
-                        Toast.makeText(MainActivity.this, "Nearby", Toast.LENGTH_SHORT).show();
+                    case R.id.menu_contact_us:
+                        startActivity(new Intent(MainActivity.this, Feedback.class));
+                        Animatoo.animateSplit(MainActivity.this);
+                        break;
+                    case R.id.menu_about:
+                        startActivity(new Intent(MainActivity.this, AboutUs.class));
+                        Animatoo.animateSplit(MainActivity.this);
                         break;
                 }
                 return true;
@@ -405,31 +406,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
             }
         }
 
-    }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        if (item.getItemId() == R.id.call) {
-            startActivity(new Intent(MainActivity.this, TeleEshtaol.class));
-            return true;
-        }
-        if (item.getItemId() == R.id.feedback) {
-            startActivity(new Intent(MainActivity.this, Feedback.class));
-            return true;
-        }
-        if (item.getItemId() == R.id.aboutus) {
-            startActivity(new Intent(MainActivity.this, AboutUs.class));
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 }
 

@@ -1,58 +1,77 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e46315"
-    android:orientation="vertical"
-    android:gravity="center_vertical"
-    >
+    android:background="#e46315">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:layout_marginTop="10dp" >
-<TextView
-    android:id="@+id/tvteleshtaol"
-    android:layout_marginTop="30dp"
-    android:gravity="center"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:textColor="#ffffff"
-    android:textSize="18dp"
-    android:text="@string/about_teleshtaol"
-    />
-    <RelativeLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvteleshtaol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/about_teleshtaol"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:id="@+id/call_teleshtaol"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_stroke"
+                    android:text="@string/yidewulu"
+                    android:textColor="#e46315"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/goToFbBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/fb_like" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation_teleshtaol"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="horizontal" >
-    <Button
-
-        android:id="@+id/call_teleshtaol"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/button_stroke"
-        android:text="@string/yidewulu"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="#e46315"
-        android:layout_marginTop="20dp"
-        />
-    <Button
-
-        android:id="@+id/webViewButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_marginRight="20dp"
-        android:background="@drawable/fb_like"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="20dp"
-        />
-    </RelativeLayout>
-    </LinearLayout>
-</LinearLayout>
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimaryDark"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_menu" />
+</RelativeLayout>

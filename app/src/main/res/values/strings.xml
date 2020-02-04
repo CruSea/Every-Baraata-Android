@@ -2,6 +2,10 @@
     <string name="app_name">Every Barataa</string>
 
     <string name="action_settings">Settings</string>
+    <string name="action_home">Home</string>
+    <string name="action_favorite">Favorites</string>
+
+
     <string name="title_activity_hiliwinaw">Hiliwinaw</string>
     <string name="title_activity_second">Second</string>
     <string name="title_activity_get">GetActivity</string>
@@ -20,14 +24,55 @@
     <string name="about_teleshtaol">Waajjira Gireet Komiishin Ministiriitti 0116174400 irratti bilbiluun ergaawwan barsiisoo ta’anii fi tajaajila gorsaas argachuu dandeessu. Dabalataanis yeroo hojiitti Wiixataa hanga Jimaataatti sa’a 3:00 hanga 11:00 tti bilbilaan ogeessota waa’ee gaa’ela duraa fi gaa’ela keessaa akkasumas kadhataa fi tajaajila hafuuraa biroos argachuu dandeessu.</string>
 
 
-    <string name="send">ላክ</string>
+    <string name="send">Ergi</string>
     <string name="videos">የህይወት ምስክርነቶች</string>
+
+
+<!--    Share links-->
+
+    <!--    Yegziabher hiliwuna-->
+
+    <string name="egziabher_ale_link">https://www.everybarataa.com/a/isthere.html</string>
+    <string name="egziabher_manew_link">https://www.everybarataa.com/a/whois.html</string>
+    <string name="egziabher_menor_ergit_new_link">https://www.everybarataa.com/a/Godreal.html</string>
+    <string name="bemejemeria_hulu_neger_bado_neberin_link">https://www.everybarataa.com/a/nothing.html</string>
+    <string name="egziabherin_man_feterew_link">"https://www.everybarataa.com/a/created.html"</string>
+    <string name="egziabher_yet_new_link">https://www.everybarataa.com/a/where.html</string>
+
+    <!--    yehiwot tiyakewoch-->
+    <string name="yehiwot_tiyakewoch_link"></string>
+
+    <string name="hiwot_lemin_kebad_hone_link"></string>
+    <string name="yehiwote_alama_mndnew_link"></string>
+    <string name="bechink_sinikebeb_link"></string>
+
+    <!--    wesibina yefikir ginignunet-->
+    <string name="wesibina_yefikir_ginignunet_link"></string>
+
+    <string name="wesibina_yefikir_guadegna_link"></string>
+    <string name="lifers_yetekarebe_tidar_link"></string>
+    <string name="yewesib_film_mirkogna_link"></string>
+    <string name="ewunetegna_yesetoch_mebt_akibari_link"></string>
+
+    <!--    egzibaherin mawek-->
+    <string name="egziabherin_mawek_link"></string>
+
+    <string name="egziabherin_begil_mawek_link"></string>
+    <string name="egziabher_tselotin_yimelisal_link"></string>
+    <string name="eyesus_manew_link"></string>
+    <string name="eyesus_lemin_mote_link"></string>
+
+
+
+
+
 <!--    Yegziabher hiliwuna-->
     <string name="yegziabher_hiliwuna">Jiraachuu Waaqayyoo</string>
 
     <string name="egziabher_ale_title">Waaqayyo ni jiraa?</string>
     <string name="egziabher_manew">Waaqayyo eenyudhaa?</string>
-    <string name="egziabher_menor_ergit_new">Jiraachuun Waaqayyoo mirkaneeffamaadhaa?</string>
+    <string name="egziabher_menor_ergit_new">Waaqayyo dhuguma ni jira?</string>
+<!--    <string name="egziabher_menor_ergit_new">Jiraachuun Waaqayyoo mirkaneeffamaadhaa?</string>-->
     <string name="bemejemeria_hulu_neger_bado_neberin">Jalqabarratti wanti hundi duwwaa turee?</string>
     <string name="egziabher_man_feterew">Eenyutu Waaqayyoon Uume?</string>
     <string name="egziabher_yet_new">Waaqayyo eessa jiraa?</string>
@@ -58,13 +103,13 @@
 
 <!--    detail local contents -->
 
-    <string name="egziabher_ale_content">\n\nWaaqayyo jiraa? Waaqayyo dhuguma jiraachuusaa kan mirkaneessan sababiiwwan kallattii ja’atu jira.
-\n\nMaarliin Adaamsaniin
+    <string name="egziabher_ale_content">\n\n<b>Waaqayyo jiraa? Waaqayyo dhuguma jiraachuusaa kan mirkaneessan sababiiwwan kallattii ja’atu jira.</b>
+        \n\n<b>Maarliin Adaamsaniin</b>
 \n\nJiraachuu Waaqayyoo nama ragaadhaan sitti himu ni jaallataa? Amanuu qabda jechuudhaan utuu mataa sin xaxiin karaa kallattiidhaan siif mirkaneessuun yoo sitti argisiise hin gammadduu? Armaan gaditti sababiiwwan jiraachuu Waaqayyoo bifa ifa ta’een mirkaneessan dhihaataniiru.
 \n\nDuraan dursa garuu waan tokko hubadhu. Namni tokko nama jiraachuu Waaqayyoo mormudha yoo ta’e, ragaan kamiyyuu isa amansiisuu hin danda’u. Dhalli namaa samiitti ol ba’ee Baatiirra /Ji’a/ akka qubate namni haalu tokko ragaan kamyyuu ejjennoo isaa kana isa jijjiirsisuu hin danda’u. Fakkiin nama Baatiirratti ka’ee, warra gara Baatiitti ol ba’an waliin gaaffii fi deebii gochuun fi dhagaan Baatii irraa dhufellee nama haalu sanaaf gatii hin qabu. Kunis namichi ‘Namni gara Baatiitti ol ba’uu hin danda’u’ ejjennoo jedhu waan qabuufidha. Namoonni tokko-tokko waa’ee jiraachuu Waaqayyootiif raga gahaa utuu qabaatanii, dhugaa kana akka hin fudhanne sagalee Waaqayyo ni dubbata[1]. “garaa keessan guutuudhaan yoo ana barbaaddattan, ana in argattu”[2]. Waa’ee jiraachuu Waaqayyootiif ragaa utuu hin barbaadiin dura, Waaqayyo yoo jiraate ani isa beekuudhaaf nan fedhaa? Jedhiitii mee of gaafadhu. Itti fufiis sababiiwwan armaan gadii hubadhu.
-\n\n1.Waaqayyo jiraa? Wal-xaxiinsa haala uumam dhachee keessatti mul’atu kaayyoodhaan wixineessee kan uumee fi bulchaas kan jiru uumaan tokko jiraachuu isaa mirkaneessa.
+\n\n<b>1.Waaqayyo jiraa? Wal-xaxiinsa haala uumam dhachee keessatti mul’atu kaayyoodhaan wixineessee kan uumee fi bulchaas kan jiru uumaan tokko jiraachuu isaa mirkaneessa.</b>
 \n\nTarreeffamanii kan hin dhumne wixineewwan Waaqayyoo hedduu yoo ta’anillee muraasni kunoo!
-\n\nDadhee ​hangi dacheen geessu sirriitti beekama. Harkisni Dachee hanga ol fageenya maayilii 50tti irra caalaatti qilleensa Naayitiroojiinii fi Ooksijiiniidhaan haguugame akka qabaannuu godheera. Hammi lafaa utuu akka Meerkurii xiqqaa ta’eera ta’eetii Dacheen qilleensa akkasii qabaachuu hin dandeessu ture. Dacheen akka pilaaneetii Guuppiter guddoo utuu taateetti ta’ee qilleensa ishee marsee argamu Naayitiroojinii qofaa ta’a ture. [3] Pilaaneetota hanga ammaatti beekaman keessaa biqiltootaa, bineensotaa fi ilmaan namaaf kan ta’u qilleensa mijataadhaan kan marfamtee jirtu Dachee qofaa dha.
+\n\n<b>Dadhee</b> ​hangi dacheen geessu sirriitti beekama. Harkisni Dachee hanga ol fageenya maayilii 50tti irra caalaatti qilleensa Naayitiroojiinii fi Ooksijiiniidhaan haguugame akka qabaannuu godheera. Hammi lafaa utuu akka Meerkurii xiqqaa ta’eera ta’eetii Dacheen qilleensa akkasii qabaachuu hin dandeessu ture. Dacheen akka pilaaneetii Guuppiter guddoo utuu taateetti ta’ee qilleensa ishee marsee argamu Naayitiroojinii qofaa ta’a ture. [3] Pilaaneetota hanga ammaatti beekaman keessaa biqiltootaa, bineensotaa fi ilmaan namaaf kan ta’u qilleensa mijataadhaan kan marfamtee jirtu Dachee qofaa dha.
 \n\nDacheen Aduu irraa fageenya sirrii irratti argamti. Utuu Aduurraa xiqqoo fagaatteetti ta’ee hundi keenya qilleensa diilallaan lafa kanarraa dhumna ture. Utuu immoo kana caalaa gara Aduutti siiqxeetti ta’ees hundi keenya gubannee dhumna ture. Dacheen bakka amma jirtu irraa jijjiirama garmalee xiqqaa ta’e utuu gootee wanti lubbuu qabu tokko lafarra jiraata jedhamee hin yaadamu. Dacheen toora ishee eeggattee Aduu marsuudhaan sa’a tokko keessatti maayilii 67,000 yommuu naannoftu, utuu dandii ishee hin gadhiisiin fuula lafaatiif qilleensa ho’aa fi diilalla’aa wal madaalu kennaa jirti.
 \n\nBaatiin /Addeessi/ qabiyyee sirrii ta’e kan qabduu fi fageenya harkisa isheef mijatu irratti argamti. Addeessi bishaan galaanaa akka bakka tokko hin ciifneef dhahaa bishaanii uumuudhaan ardiiwwan akka dhaha bishaan kanaan rukutaman taasifti[4].
 \n\nBishaan uumama bifa, foolii fi mi’aa hin qabne yoo ta’u, bishaan malee garuu lubbuun hin jiru. Biqiloonni, bineensonni fi ilaan namaa bishaan irraa uumaman. Qaama namaa keessaa 2/3 bishaanidha. Amalli bishaanii lubbuudhaaf mijataadha. Qabxiin bishaan itti danfuu fi deebi’ee qabbanaa’u bifa adda ta’een olaanaa dha. Ho’inni bishaanii ho’iinsa qaamaa Faranayit digirii 98.6 tursuudhaan qulleensa jijjiiramau keessa akka jiraannu nu dandeessisa.
@@ -76,71 +121,71 @@
 \n\nQaama dachee keessaa harki 97% bishaan keessatti haguugamee argama. Soogiddummaa bishaan galaana keessaa dhabamsiisuudhaan bishaan qulqulluun bokkaa ta’ee dacheef akka roobu kan godhu seeri uumamaa jira. Hurriin bishaan galaanaa keessaa soogidda dhabamsiisuudhaan duumessa uuma. Duumessis qilleenssaan samiirra oofamee lubbu qabeeyyii lafarra jiran hundaaf bifa bokkaatii rooba. Seerri kuni waan faayidaarra oole tokko seera itti fufiinsaan deebisee fayyadamuudha[6]. Sababii itti fufiinsa seera kanarraan kan ka’e lubbu qabeeyyiin lafarra jiraatu.
 \n\nSammuun namaa​ al-takkaatti odeeffannoo hedduu keessummeessuudhaan dandeettii dinqii ta’e qaba. Sammuun kee halluuwwan sitti mul’atan, haala qilleensa naannoo keetti argamuu, yeroo lafarra ejjettu wanta miila kee keessaan sitti dhaga’amu, sagaleewwan naannoo keetti argaman, gogiinsa afaan kee hunda ni keessummeessa. Sammuun kee miira kee, yaada kee, yaadannoo kee hunda,
 \n\nni keessummeessa. Kana hunda gochaa hojii qaama kee hunda jechuunis, hargansuu, liphisuu ijaa, miira dheebuu fi beela’uu akkasumas sochii harkaa fi humna dhagina kee hunda hordofuuf dandeettii qaba.
-\n\nSammuun namaa sekondii tokko keessatti ergaawwan miliyoona tokkoo ol ta’an keessummeessuu danda’a[7]. Kuni hojii adda baasuu fi qulqulleessuuti. Wantoota naannoo kee jiraniif xiyyeeffannaa kennuudhaaf dandeettiin sammuu keetiif kennamu buusaa dhagna kee warra biro waliin ta’ee bifa adda ta’een kan hojjetudha. Sammuun kee dandeettii sababa dhiyeessuu, madaaluu, miiraa, yaaduu, karoorsuu, nama waliin hariirroo uumuu fi murtoo laachuudhaaf dandeettii qaba.
+\n\n<b>Sammuun namaa</b> sekondii tokko keessatti ergaawwan miliyoona tokkoo ol ta’an keessummeessuu danda’a[7]. Kuni hojii adda baasuu fi qulqulleessuuti. Wantoota naannoo kee jiraniif xiyyeeffannaa kennuudhaaf dandeettiin sammuu keetiif kennamu buusaa dhagna kee warra biro waliin ta’ee bifa adda ta’een kan hojjetudha. Sammuun kee dandeettii sababa dhiyeessuu, madaaluu, miiraa, yaaduu, karoorsuu, nama waliin hariirroo uumuu fi murtoo laachuudhaaf dandeettii qaba.
 \n\nQaroon ijaa halluuwwan miiliyoona torba ta’an adda baasuudhaaf dandeettii qaba. Haala nama dinquun al-takkaatti ergaa miiliyoona 1.5 ta’u keessummeessuu danda’a[8]. Saayinsiin waa’ee uumama lubbu qabeeyyii qoratu (Evolution) jijjiirama qaama irraaan mul’aturratti xiyyeeffannaa godha. Garuu saayinsiin kuni waa’ee hundee uumama ijaa, sammuu yookaanis lubbu dhabeeyyiin yoom jiraachuu akka eegale ibsa kennuu hin danda’u.
-\n\n2. Waaqayyo jiraa? Uumama hundaaf hundee kan ture ka’umsi maalidhaa?
+\n\n<b>2. Waaqayyo jiraa? Uumama hundaaf hundee kan ture ka’umsi maalidhaa?</b>
 \n\nUumamni amma mul’atu kuni dho’iinsa tokko duwwaadhaan akka argame beektonni saayinsii ni amanu. Jalqabni addaa kunis uumamuu uumama hundaaf sababa ta’eera jedhu. Umamuu samii, lakkoofsa baraa fi yeroof illee dho’iinsi kuni /Big Bang/ sababa akka ture ni dubbatu.
 
 \n\nOggeessa barnoota Fiiziksii kan ta’e Roobert Jastrow qaama jajjaboo malee waa’ee Waaqayyoo beekuun hin danda’amu jedhee kan amanu akkas jedheera “Sanyiin uumamaa raawwii isa jalqabaa irratti kan hundaa’e dha. Tokko-tokkoon hurjii, Pilaaneetiin fi wanti lubbuu qabu hundi kan argame sababa dho’iinsa kanaanidha. Balaqqeesa tokkichaan uumamni hundi uumameera. Garuu suni hundi akka ta’u eenyu akka godhe beekuu hin dandeenyu jedhu” [9].
 \n\nKalaqa barnoota Fiiziksiidhaan badhaafama Noobeel kan qabu Steven Weyinberg akkas jedheera, “Battala dho’iinsa sanaatti ho’iinsi uumamaa digirii miliyoona kuma dhibba tokko ture. Uumamni ifaan guutamee ture” [10].
 \n\nUumamni dur-ganamaa eegalee jalqaba qaba ture. Kanaaf jalqaba kana akka eegalu kan godhe eenyudhaa? Beektonni saayinsii garuu ifaa fi dho’iinsa akka tasaa kanaaf ibsa gahaa kennuuf dandeetti hin qaban.
-\n\n3. Waaqayyo jiraa? Uumamni seera uumamaa wal-fakkaatuun bulfama. Maaliif?
+\n\n<b>3. Waaqayyo jiraa? Uumamni seera uumamaa wal-fakkaatuun bulfama. Maaliif?</b>
 \n\nHarkisini dachee hin jijjiiramu, bunni ho’aan minjaalarra kaayyannu garuu qabbanaa’aa deema. Akkasumas dacheen sa’atii 24 keessatti ofirra naannofti, saffisni ifaa lafarrattis ta’e samiirratti hin jijjiiramu.
 \n\nSeera uumamaa isa hin jijjiiramne kana maaliif akkasitti adda baasnee beeknaa? Uumamnis maaliif akkas seera qabeessa ta’e ta’aa?
 \n\n“Kuni hundis beektota saayinsii gur-guddootti dinqii ta’ee ture. Sirna uumama isa shalaga herregaan bulchu dhiifnee sirna uumama isa seeraan gaggeeffamu hubachuun nama rakkisa. Yaada keessa keenyaan haala hin eegamneen yeroodhaa gara yerootti sirna uumama jijjiiramu arguu dandeenya, yookaans jireenyaa irraa gara jireenyaan alaatti sirna uumamaa akkuma mijatetti mul’atee dhaamu”[11].
 \n\nElktiroo dayinaamiksii kuwantemiidhaan badhaasa kan qabu Riichaard Feyinman akkas jedheera, “Uumamni shala herregaa ta’uunshee icitii hiika hin argannedha, seeronni sirna uumamaa jiraachuun isaanii waan dinqiidha”[12].
-\n\n4. Waaqayyo jiraa? DNA n seelii jiraataa tokkoof ragaa kenna, amalasaas ni gaggeessa.
+\n\n<b>4. Waaqayyo jiraa? DNA n seelii jiraataa tokkoof ragaa kenna, amalasaas ni gaggeessa.</b>
 \n\nLeenjii fi barnootni kamiyyuu kaayyoodhaan qopheeffama. Namni kitaaba barnootaaf oolu qopheessu tokko kaayyoodhaan qopheessa. Dhagina keenya keessa seelii hunda keessa qajeelfamni sgantaa kompiuteraa fakkaatu akka jiru ni beektaa? Akkuma beekamu sagantaan kompiuteraa lakkoofsa 0 fi 1n (01) hojjeta. Akkaataan tarreeffama lakkoofsota akkasii 11001010101000 kompiuterichi maal hojjechuu akka qabu itti hima. Toftaan odeeffannoon seelii DNA ilmaan namaa keessa jiru kana waliin wal-fakkeenya qaba. Beektonni saayinsii keemikaalota gabaajeedhaan waamaman afraniin kan tolfamanidha. Isaanis (A)(T)(G) fi [C] jedhamu. Seelii namaa keesstti akkaataan taa’umsa isaanii akka armaan gadiitti CGTGTGACTCGCTCCTGAT..fakkaata. Selii nama hundaa keessatti sagantaa qubee kana fakkaatu biiliyoona sadii ta’utu jira. Seelicha maal gochuu akka qabu kan nutti himan jechuudha. Silkii moobayilii kee sgalee biip jedhu akka dhageesisu gochuun ni danda’ama. Akkasumas DNA abbaa qubee miliyoona sadii seelichaaf qajeelfama kenna. Qajeelfamichis guutuudha[13].
 \n\nKuni maaliif nama dinqaa? Sagantaan odeeffannoo kuni attamiin seelii namaa keessatti diriirfamee? Isaan kuni keemikaalota salphaa duwwaa utuu hin taane qaamni namaa attamiin akka ijaaramuu qabu qajeelfama kan kennanidha.
 \n\nOdeeffannoo qindaa’e kana saayinsiin baayolojii nuuf ibsuu hin danda’u. Kana namni tokko kaayyoodhaan yoo qindeesse malee qajeelfama akkasii argachuun hin danda’amu.
 </string>
 
-    <string name="egziabher_ale_content1">\n\n5. Waaqayyo jiraa? Eeyen Waaqayyo jira. Sababiinsaas nu hordofaa jira. Gara isaattis akka dhihaannu ni barbaanna, karaas ni qopheessa.
+    <string name="egziabher_ale_content1">\n\n<b>5. Waaqayyo jiraa? Eeyen Waaqayyo jira. Sababiinsaas nu hordofaa jira. Gara isaattis akka dhihaannu ni barbaanna, karaas ni qopheessa.</b>
 \n\nYeroo tokko jiraachuu Waaqayyootti hin amanu ture. Akkuma nama gantuu tokkootti yeroo namoonni jiraachuu Waaqayyootti amanan ana dhiphisa ture. Namoonni Waaqayyotti hin amanne akka Waaqayyo hin jirre namoota amansiisuuf jedhanii maaliif humnaa fi yeroo isaanii balleessuu? Kana akka raawwatan kan isaan taasisu maalidhaa? Ani dhuunfaa kootti kana kanan godhu gaddaan ture. Namoonni garraammiin tokko-tokko wanta abdii namaaf ta’uu hin dandeenyetti amanachuudhaan akka hin gowwomfamneef jedheen ture kanan humnaa fi yeroo koo balleessu. Dhuguma yoon dubbadhe saba gara biraas nan qaba ture. Innis yommuun warra amanan wajjin wal-falmu yookaan yommuun isaan qoru ana amansiisuu danda’u yoo ta’e kan jedhu abdiin keessa koo ture. Yaaliin koo hundi waa’ee Waaqayyo ofirraa buufachuu fi dogoggora amantootaa yoon isaaniif mirkaneesse dhimmichi waan dhume anatti fakkaata ture. Gaafa sanas anis bilisummaadhaan waanan jireenya koo itti fufu anatti fakkaata ture. Garuu wanti ani hin hubanne tokko jira ture. Dhimmi Waaqayyoo kuni akkas cimee akka ana qabuuf sababii kan ta’e immoo Waaqayyo mataansaa ana irraa dhimma cimaa qabaachuu isaa ture. Waaqayyo namoota biratti beekamuu fedha. Kan unuun uumes akka isa beeknuufdha. Jiraachuu isaa wantoota nuuf mirkaneessan hedduu naannoo keenya tarreesseera. Haala nama hin shakkisiifneen waa’ee jiraachuu isaa fuula keenya duratti diriirseera. Haala ani jiraachuu isaa duraa miliquu hin dandeenyeen wanti hundi fuula koo dura taa’ee jira. Jiraachuu isaa gaafan amanee harka kenne “Ga’e haa ta’u ana mooteetta”n ittiin jedhe. Namoonni jiraachuu Waaqayyootti hin amanne yommuu amantoota argan ni dhiphatu. Kanaafis sababiin inni guddaan Waaqayyo waan isaan ari’achaa jiruufidha.
 \n\nAni kana kanan shaakalee qofaa koo miti. Barreessaa falaasama Koominizimii kan ta’e Maalkoolim Muugerij namni jedhamu yommuu dubbatu “Barbaachaaf koo kan ana ari’achaa jiru akka jiru hubadheera” jedheera. Namni Sii. Es. Luwis (C.S.Lewis) jedhamu immoo yommuu dubbatu, “Halkan guutuu yommuun yeroo muraasaaf boqonnaa argadhu, namni ani ijaan isa arguu hin barbaanne tokko yommuu anatti dhihaatu nan arga. Anis harkan kenne. Waaqayyo ta’uu isaas nan amane. Jilbeenfadheen kadhadhe. Halkan sana biyya Ingilizii keessatti namni nagaa hin qabne fi xiiqiidhaan guutame tokko gara Waaqayyootti akka deebi’e nan hubadhe”.
 \n\nNamni kuni Waaqayyoon beekuu isaa irraan kan ka’e “Dinqii fi gammachuu guddaanan guutame” kan jedhu kitaaba tokko berreesse. Anis waa’ee jiraachuu Waaqayyoo raga ba’uu irraa kan hafe waan biraa waanan dubbadhu hin qabu ture. Eddan Waaqayyoon booji’amee booda ji’oota itti fufan keessatti jaalala dinqii Waaqayyo anaaf qabuun nan tuqame.
-\n\n6. Waaqayyo jiraa? Hunduma caalaatti Waaqayyo nuuf mul’achuu isaa kan arginu karaa Yesus Kristosidha.
+\n\n<b>6. Waaqayyo jiraa? Hunduma caalaatti Waaqayyo nuuf mul’achuu isaa kan arginu karaa Yesus Kristosidha.</b>
 \n\nMaaliif karaa Yesus ta’e? Mee amantaa addunyaa kanaa ilaalaa. Budihaa, Mehammed, Konfiishiyes fi Museen eenyummaa isaanii kan beeksisan barsiisummaadhaan yookaan raajummaadhaan ture. Isaan kana keessaa kan Waaqayyo waliin qixa godhee of kaa’e hin ture. Wanti nama dinqu garuu Yesus Waaqa ta’uu isaa ifatti ibsuu isaa ture. Yesusiinis warra kaan irraa wanti adda isa godhu kana ture. “Waaqayyos akkas jedhe. Inni argaa jirtan isadha” jedhe. Yesus waa’ee abbaa isaa isa Waaqa irraa yemmuu dubbatullee akka waaqa fagoo tokkootti utuu hin taane, dhiyeenyi isaa ilmaan namaa irraa haala adda ta’een ture. “Namni Yesusiin arge Waaqayyo abbaa argeera. Kan isatti amanes abbaatti amaneera” jedhe.
 \n\nYesusis akkas jedhe, “Ani ifa biyyaa lafaa ti. Kan ana duukaa bu’uufis ifa jireenyaatu ta’aaf malee dukkana keessa hin jiraatu”. Bifa Waaqayyoon mul’achuudhaan eenyummaa isaa mul’ise. Namoota cubbuu irraa qulqulleesse, bilisa baase, jireenya bara baraas keenneera. Warri kaan namoonni barsiisa isaanii irratti akka xiyyeeffatan yemmuu godhan, Yesus garuu namoonni akka isatti amanan godha ture. Yesus “sagalee koo hordofaa dhugaas argattu”. Yesusis, “Ani karaa fi dhugaa jireenyadhas, karaa koo malee gara abbaa kan dhufuu danda’u hin jiru”.
-\n\nYesus Waaqa ta’uusaatiif ragaan inni kenne maalidhaa? ​Wanata namoonni gochuu hin dandeenye godha ture. Dinqii fi milkitoota godha ture. Warra jaaman, naafatanii fi gurri isaanii dude fayyise. Du’oota kaase. Waan hunda irratti aboo qaba ture. Nyaata xiqqaa baay’isuudhaan namoonni kumaatama ta’an akka nyaatan godhe. Galaana irra deeme, dhahaa galaanaa abboomee dhaabe. Namoonni bakka hundatti isa duukaa bu’u turan. Sababiinsaas inni dinqii adda addaa raawwachuudhaan hibboo namootaa hiika waan tureefidha. Yesusis “Wanta ani jedhu yoo amanuudhaabaattan hojichaaf jedhaa anatti amanaa” isaaniin jedhe.
+\n\n<b>Yesus Waaqa ta’uusaatiif ragaan inni kenne maalidhaa?</b> ​Wanata namoonni gochuu hin dandeenye godha ture. Dinqii fi milkitoota godha ture. Warra jaaman, naafatanii fi gurri isaanii dude fayyise. Du’oota kaase. Waan hunda irratti aboo qaba ture. Nyaata xiqqaa baay’isuudhaan namoonni kumaatama ta’an akka nyaatan godhe. Galaana irra deeme, dhahaa galaanaa abboomee dhaabe. Namoonni bakka hundatti isa duukaa bu’u turan. Sababiinsaas inni dinqii adda addaa raawwachuudhaan hibboo namootaa hiika waan tureefidha. Yesusis “Wanta ani jedhu yoo amanuudhaabaattan hojichaaf jedhaa anatti amanaa” isaaniin jedhe.
 \n\nWaaqayyo garraammii fi jaalala ta’uu isaa, nuti immoo namoota hir’ina qabnuu fi ofittoo yoo taanellee, Waaqayyo gara isaatti nu dhiyeessuu fi isa waliin hariirroo akka qabaannuu fedhuu isaa Yesus unutti agarsiiseera. Cubbamootaa fi adabbiin kan nuuf maluu taanee otuu jirruu, Waaqayyo jaalala isaa irraa kan ka’e kayyoo adda ta’e akka unuuf qabu Yesus ibseera. Waaqayyo waa’ee cubbuu keenyaaf foon uffachuudhaan cubbuu keenya baate. Kuni tarii qoosaa fakkaachuu danda’a. Tarii namoonni ijoollee isaanii dhukkuba kaanseriidhaan qabaman hedduun bakka ijoollee isaanii bu’anii dhukkuba sana baachuudhaaf fedhii qabaachuu danda’u. Akkasuma Waaqayyo jaalala unuuf qabu irraa kan ka’e cubbuu keenya baate. Kanaaf nutis Waaqayyoon kan jaallannu inni duraan dursee waan nu jaallateef akka ta’e macaafni qulqulluun cimsee nu hubachiisa.
 \n\nAkka araara arganuuf Yesus bakka keenya du’e. Amantaa addunyaa kanarra jiran hunda keessaa Waaqayyo karaa Kristos duwwaa harka isaa diriirsuudhaan ilmaan namaa wajjin tokkummaa uumuu isaa argina. Yesus keessaan dheebuu jaalala Waaqayyoon unu sooruudhaan gara isaatti yemmuu unu dhiyeessuu argina. Du’uu fi du’aa ka’uu Yesus irraa kan ka’e har’a jireenya haaraa qabna. Waaqayyo “Jaalala bara-baraan sin jaalladheera kanaafis arjummaadhaan ofitti si harkise” jedha. Kuni hojii Waaqayyoo isa hojjechaa jiruu ti.
 \n\nYoo baruu barbaadde Yesuusiin yaali. “Isatti kan amanu hundinuu jireenya bara baraa haa qabaatuuf malee akka hin badneef Waaqayyo tokkicha ilma isaa hamma kennutti biyya lafaa akkasumaan jaallateera”.
 \n\nWaaqayyo dirqisiisuudhaan akka isatti amannu hin godhu. Yoo barbaanne garuu jiraachuu isaatiif raga gahaa nuuf kenneera. Fageenyi lafaa fi aduu gidduu jiru, amaloonni bishaanii fi keemikaalaa, sammuun namaa (DNA), baay’ina namoota Waaqayyotti amananii, akkasumas waa’ee jiraachuu Waaqayyoo akka murteessinu laphee fi sammuu keenyaaf boqonnaa kan hin kennine fi halli keessa keenya qorxomsee nyaatu jira. Wanti nama dinqu tokko Waaqayyo karaa Yesus Kristos akka isa barru fedhuu isaati.
-\n\nWaaqayyo waliin wal-baruuf akkasumas isa wajjin walitti dhufeenya uummachuu yoo barbaadde amma eegaluu dandeessa.
+\n\n<b>Waaqayyo waliin wal-baruuf akkasumas isa wajjin walitti dhufeenya uummachuu yoo barbaadde amma eegaluu dandeessa.</b>
 \n\nKuni fedhii kee duwwaa gaafata. Dirqamaan miti. Waaqayyo biraa dhiifama argachuufi isa waliin walitti dhufeenya qabaachuu yoo barbaadde, araara akka siif godhuu fi Yesus gara jireenya kee akka seenu gochuu dandeessa. Kana ammuma gochuu dandeessa. “Kunoo ani balbala dhaabadheen balbala rukuchaan jira. Eenyllee sagalee koo dhaga’ee yoo balbala anaaf bane ani gara isaatti nan gala”. Kana gochuudhaaf yoo fedhii qabaattee fi jechaan ibsuu yoo dadhabde.
 \n\n“Yaa Yesus sin galateeffadha. Waa’ee cubbuu kootiif waan anaaf duuteef amma cubbuu kootiif dhiifama akka anaaf gootu nan barbaada. Kanaafis dhiifama anaaf gochuudhaan gara jireenya kootti akka dhuftu sin affeera. Dhuguma siin baruu nan fedha. Amma gara jireenya kootti gali. Waa’ee cubbuu kootiif fannoo irratti waan anaaf duuteef sin galateeffadha. Amma laphee koo banee fayyisaa lubbuu koo fi gooftaa koo godhee sin simadha. Cubbuu koo anaaf dhiiftee jireenya bara-baraa waan anaaf kenniteef sin galateeffadha. Teessoo jireenya koo dhuunfachuudhaan anarratti mo’i. Nama garaa kee ana taasisi. Waa nana simatteef sin galateeffadha. Ameen!
 \n\nYesus tokkummaa amma Waaqayyo waliin eegaltetti akka itti fuftu barbaada. Amantoota ilaalchisee, “Anis nan isaan beeka, isaanis ana duukaa bu’u, anis jireenya bara-baraa isaaniifan kenna, bara-baraafis baduu hin danda’an, harka koo irraas eenyullee isaan butuu hin danda’u” jedha.
 \n\nKanaafis Waaqayyo dhuguma jira. Ragaawwan kana hubachuudhaan namni tokko Waaqayyo isa jaalala ta’e kana beekuu ni danda’a. Michuu dhuunfaa fi hariirroo dhiyeenyaa isa waliin horachuu danda’a. Waa’ee waaqummaa Kristos, waa’ee jiraachuu Waaqayyoo yookaanis gaaffii wal-fakkaatu yoo qabaatte teessoo armaan gaditti argamuun unu argachuu dandeessa.
 </string>
 
-    <string name="egziabher_manew_content">\n\nWaaqayyo eenyudhaa? Maal fakkaataa? Amaloota Waaqayyoo ja’an
-\n\n1. Waaqayyo eenyudha? Baramuu danda’a
+    <string name="egziabher_manew_content">\n\n<b>Waaqayyo eenyudhaa? Maal fakkaataa? Amaloota Waaqayyoo ja’an</b>
+\n\n<b>1. Waaqayyo eenyudha? Baramuu danda’a</b>
 \n\n Dandeettii uumuu isaatiin dinqisiifamaa kan ta’ee fi uumaa uumama addunyaa kanaa kan ta’e Waaqayyoon baruu/beekuu/ ni dandeenya. Dhuunfaatti akka isa beeknuu fiisa waliinis walitti dhufeenya dhuunfaa akka uummannu nu afeera. Waa’ee isaa beekuu duwwaa otuu hin taane isa mataa isaa dhuunfaatti beekuu dandeenya.
-\n\nWaaqayyo akkas jedha, “Namni ogeessi ogummaa isaatiin of hin jajiin, inni jabaanis jabina isaatiin of hin tuuliin, inni badhaadhaanis badhaadhummaa isaatiin hin kooriin! Namni ani Waaqayyo akkan ta’e beeku, lafa irrattis gaarummaa, qajeelummaa fi firdii qajeelaa akkan godhu hubatu, isa kanaan of haa jaju! Ani wanta akkasii kanatti nan gammada” (Er 9:23-24).
-\n\n2. Waaqayyo Eenyudha? Isatti dhihaachuu dandeenya.
+        \n\nWaaqayyo akkas jedha, <i>“Namni ogeessi ogummaa isaatiin of hin jajiin, inni jabaanis jabina isaatiin of hin tuuliin, inni badhaadhaanis badhaadhummaa isaatiin hin kooriin! Namni ani Waaqayyo akkan ta’e beeku, lafa irrattis gaarummaa, qajeelummaa fi firdii qajeelaa akkan godhu hubatu, isa kanaan of haa jaju! Ani wanta akkasii kanatti nan gammada”</i> (Er 9:23-24).
+\n\n<b>2. Waaqayyo Eenyudha? Isatti dhihaachuu dandeenya.</b>
 \n\nWaaqayyo akka isa waliin dubbannuu fi dhimma dhuunfaa keenyas akka isa mar’annu nu afeera. Kanaaf qophiis hin barbaachisu; nama gaarii ta’uu, Og-Waaqaummaa /Theology/ barachuu, yookaanis nama qulqulluu ta’uu hin barbaachisu; akka jirrutti eenyummaa keenyaan gara isaatti yoo dhihaanne, amala isaa isa jaalala ta’e irraa kan ka’e nu simata.
-\n\n“Waaqayyo warra isa waammatan hundumaatti, warra dhugaadhaan isa waammatan hundumaatti dhi’oo dha” (Far 145:18).
-\n\n3. Waaqayyo Eenyudha? Uumaadha.
+        \n\n<i>“Waaqayyo warra isa waammatan hundumaatti, warra dhugaadhaan isa waammatan hundumaatti dhi’oo dha”</i> (Far 145:18).
+\n\n<b>3. Waaqayyo Eenyudha? Uumaadha.</b>
 \n\nWaaqayyo sagalee duwwaa dubbachuudhaan uumamoota gara jireenyaatti fide. Tuta urjoota samii (galaxy) keessatti argamanii fi uumamoota lubbu-qabeeyyii hunda kan uumedha. Kana hundaan otuu hin daangeffamiin rakkoo fi dhibeewwan bara keenyaafis inni furmaata fiduu ni danda’a. Waaqayyo uumaadha humna isaa akka beeknuu fi isatti akka amanannu ni fedha.
-\n“Gooftaan keenya guddaadha,
+\n<i>“Gooftaan keenya guddaadha,
 \naangoo guddaas qaba;
-\nhubannaan isaa hammana hin jedhamu” (Far 147:5).
+            \nhubannaan isaa hammana hin jedhamu” </i>(Far 147:5).
 \n“Iji koo gara gaarotaatti ol in ilaala,
 \ngargaarsi koo eessaa dhufaa?
 \nGargaarsi koo Waaqayyo biraa in dhufa;
 \nInni immoo isa bantiiwwan waaqaa, lafas uumedha” (Far 121:1,2).
-\n\n 4. Waaqayyo Eenyudhaa? Waaqayyo Waaqa dhiifamaa ti.
+\n\n <b>4. Waaqayyo Eenyudhaa? Waaqayyo Waaqa dhiifamaa ti.</b>
 \n\nNama waan taaneef cubbuutti ni kufna; al-tokko-tokko akka yaada Waaqayyootti otuu hin taane akka fedha keenyaatti hojjenna. Waaqayyos kana hunda ni arga; ni beekas. Kana duwwaa otuu hin taane Waaqayyo sababa cubbuu isaaniitiin namoota ni adaba. Garuu isa wajjin edda tokkummaa uummannee booda araara nuuf godha. Ilmi Waaqayyoo Yesus Kristos fannoo irratti du’uudhaan gatii cubbuu keenyaa baase. Du’aa edda ka’ees araara nuuf gochaa jira.
 \n\n“Qajeellinni Waaqayyoo kan Yesuus Kiristoositti amanuun argamu kunis warra isatti amanan cufaafi;…Karaa dhiiga isaatti amanuutiinis akka inni aarsaaz araaraa ta’uuf Waaqayyo isa dhiyeesse” (Rom 3:22, 25).
-\n\n5. Waaqayyo Eenyudha? Amanamaadha.
+\n\n<b>5. Waaqayyo Eenyudha? Amanamaadha.</b>
 \n\nAkkuma nama yaada garaa isaa fi miira isaa siif ibsuutti, Waaqayyo waa’ee isaa ifatti sitti hima. Inni yeroo hunda amanamaadha. Wanti nama irraa adda isa godhu kanadha. Waa’ee eenyummaa isaa fi waa’ee keenya wanti inni nutti himu dhugaa fi amanamaadha. Wanti inni dubbatu miira, yaadaa fi hubannaa keenyaan olidha. Amanamummaa fi qajeelummaa isaatti kakuu isaatti hikachuu ni dandeenya. Inni Waaqa waan dubbatu godhudha. Sagalee isaan isa qabuu dandeenya.
 \n\n“Saaqamuun dubbii keetii ifa in kenna,
 \n\nWallaaltota iyyuu in hubachiisa…Dubbiin kee miilla kootiif ibsaa dha, daandii koo irrattis in ifa” (Far 119:130,105).
-\n\n6. Waaqayyo eenyudhaa? Hunda kan danda’udha.
+\n\n<b>6. Waaqayyo eenyudhaa? Hunda kan danda’udha.</b>
 \n\nWaan hundumaan dhibbaa-dhibbatti sirrii ta’anii argamuun namatti tola. Waaqayyo yeroo hunda dhugaadha. Ogummaan isaa daangaa hin qabu. Waa’ee waan tokkoo gadi fageenyaan ni beeka. Seenaa isaa isa jalqabaa fi isa gara fuula duraa raga isaaf kennuun hin barbaachisu, waan tokko akka raawwatu isa hin kakaasnu, inni ni raawwata. Dandeettii waan qabuuf, yaadi isaas qajeelaa fi qulqulluu dha. Waaqayyoon yoo amanne inni hin dogoggoru, akkasumas nama hin gowwomsu, yeroo hunda waan hunduma keessatti waan qajeelaa akka hojjetu guutummaan guutuutti mirkaneeffachuu dandeenya.
 \n\n“Eyye, warri harka kee eeggatan hin yeellaasifaman”(Far 25:3). </string>
-    <string name="bemejemeria_hulu_neger_bado_neberin_content">\n\nImala yaadaa haala jalqabbii yeroo fi achii dhufa hawwaa (Addunyaa) irratti
+    <string name="bemejemeria_hulu_neger_bado_neberin_content">\n\n<b>Imala yaadaa haala jalqabbii yeroo fi achii dhufa hawwaa (Addunyaa) irratti</b>
 \n\n Waa’ee jalqabbii yaaddee beektaa? Maalidha inni jetta? Maaliyyuu haa ta’uu jalqaba wanti mul’ate maali dha jettaa? Bara durii sanatti, battala sana maaliyyuu haa ta’u, yeroo keessa maaltu ture jettee yaadda? Waa’e kanaa itti yaadu dhaaf sammuu kee carraaqsitee ni beektaa?
 \n\nMee jalqabatti waanumti tokkollee jiraachuu dhiisuu ni danda’a jettaa? Waggoota dheera darban dura waan tokkollee jiraachu dhiisu ni danda’aa? Dhugumatti sun akka yaada qorannotti ilaalamuu ni danda’aa ta’aa,mee akkasittis haa ilaallu, garuu bifa walfaantiitiin (wal bira qabuu dhaan).
 \n\nMee kutaa bal’aa tokkoo qabdaa haa jennuu. Kutaan kun baldhinni isaa hamma dirree Kubbaa Miillaa kan ga’uu fi guutummaa guutuuttii haguugamaa dha. Kutaan kun dhaabbataa dhaan cufameeraa, Foddaa fi balbala hin qabuu, akkasumas Dhaabiin isaa qaawwaa tokkollee hin qabuu. Kutaa kana keessa wanti tokkollee hin jiruu. Dhugumattii wanti tokkollee keessa hin jiruu. Gosa Suudoowwaanii tokkollee of keessaa hin qabuu. Qilleensii fi Awaarris keessa hin jiruu. Guutuummaa guutuuttii Ifa of keessaa hin qabuu. kutaa dukkannii Limixiin uffiise fi samsamamaa dha. Egaa maaltu ta’aa?
@@ -169,7 +214,7 @@ Guutummaa guutuutti homtuu hin turree taanan, silaa wanti tokkollee bakkee dha j
 \n\nItti fufiinsa Barruu kanaaf, gara barruu biraa deemi!
 \n\nDhimma kana irratti barruu dabalataa, waaqayyotu hawwaa (Adunyaa) kana uumee isa jedhu ilaali!
 </string>
-    <string name="egziabher_man_feterew_content">\n\nAkkamittiin waaqayyoo akka jiraate ibsii..
+    <string name="egziabher_man_feterew_content">\n\n<b>Akkamittiin waaqayyoo akka jiraate ibsii..</b>
 \n\nWanti tokko gara jiraachuutti yoo dhufe, waan kan biraa tokkoon gara jiraachuutti dhufe jechuu dha. Kitaabnii barreessaa qabaa.  Muusiqaan ogeessa Aartii qabaa. Afeerraan tokko waliti qabaa (abbaa afeerraa) qaba!  Wanti jalqabee hundinuu jalqabbii qaba, jalqabuu isaafis sababa (ka’umsa) qaba.
 \n\nHawwaa (Adunyaa) kana gaafa ilaalluu ogeessonnii Saayinsii  yeroo tokko yaada qorannoo “steady-state” jedhu,yaada hawwaan kun jalqabbii fi dhuma hin qabdu yeroo hundaa dhaabbataa taatee itti fufti jedhu tokko fudhatanii turan.
 \n\nRagaan qorannoo fi uumama hawwaa (cosmological) akka ka’umsa hawwaatti yaada qorannoo “Bing Bang” nuf eera. Iddoon-yeroon-wanti ijaan mul’atu-humni warri kun hudinuu jalqabbii adda ba’aa fi kan mataa isaani ta’ee qabuu.
@@ -177,8 +222,8 @@ Guutummaa guutuutti homtuu hin turree taanan, silaa wanti tokkollee bakkee dha j
 \n\nUumama keessattii wanti nuti arginuu hundinuu jalqabbii qabaa. Haa ta’uyyuu malee Waaqayyoo ramaddii kan biraa keessa jiraa, ta’u qabas. Waaqayyoo uumama hundumaa irraa, dhala namaa fi wanta jiru hundumaa irraa adda dha, yeroo hundumaas jiraata, waan uumee hundumaa irraas of danda’aa dha.  Waaqayyoo of ga’aa fi ofiin jiraataa dha malee, hirkatee kan jiraatu miti. Innii kun akka itti macaafnii qulqulluun waaqayyoon ibsuu fi akka itti waaqayyoo ofii isaa mul’ise dha. Maalif karaa kanaan of ibse waaqayyoo?
 \n\nHawwaa kana karaa kan biraa dhaan ibsuun hin danda’aamu. Ofii isaan of hin Uumnee. Yeroo hundumaas hin turree. Lafti kun Waan kan biraa ofii isaayyuu uumama ta’eenis hin uumamne. Maalif?
 \n\nYaanni kun yaada mormii hawwaan kun waaqayyoon uumame jedhuuf mitii, garuu garagalchoo waaqayyoo humna lammaffaa waaqayyoon uumame, inni lammaffaan kun immoo humna waaqayyoo isa sadaffaa dhaan uumamee fi kkf dha. Akkuma Aristootili haala qubsaa dhaan morme, dhugaan kaa’imsaaf sababa ta’e, garuu ofii isaa sababa hin qabne tokko jiraachu qaba (wanti ofii hin sochoone garuu sochoosu tokko jiraachu qaba). Maalif? Sababni isaa baroonnii lakka’aamanii hin dhumne gara duubaatti  sababoota qabu yoo ta’e, akkas jechuun adeemsi turee hundumtuu hin jalqabamnee jechuu dha.
-\n\nJiraachuu waaqayyoof ragaa kana caalaa barbaaddaa? Waaqayyoo jiraa isa jedhu ilaali!</string>
-    <string name="egziabher_menor_ergit_new_content">\n\nJiraachuu Waaqayyootti amanuudhaaf Saayinsiin raga gahaa ni kenna. Faayidaan DNA maali?
+\n\nJiraachuu waaqayyoof ragaa kana caalaa barbaaddaa? <b>Waaqayyoo jiraa</b> isa jedhu ilaali!</string>
+    <string name="egziabher_menor_ergit_new_content">\n<b>Jiraachuu Waaqayyootti amanuudhaaf Saayinsiin raga gahaa ni kenna. Faayidaan DNA maali?</b>
 \n\nHayyuun falaasamaa biyya Biriitish, Dr. Antonii Filew namani jedhamu dura taa’aa fi afa-yaa’ii warra “Waaqayyoo hin jiru” jedhanii yommuu ta’u akka Waaqayyo hin jirre ibsuudhaaf falmii adda-addaa keessatti hirmaateera.  Haata’u malee waggoota darban 30 keessatti argamni haaraan karaa saayinsii akka mirkaneessetti karaa inni haaluu hin dandeenyeen jiraachuu Waaqayyoo mirkaneeffameera. Mudde bara 2004tti gaaffii fi deebii Teviiziyoonaaf kenne keessatti, Madda lubbu qabeeyyii fi wal-xaxiinsa uumamaaf wanti ibsa gaarii ta’uu danda’u tokko bilchina sammuu olaanaa (Super-intelligence) duwwaa akka ta’e ibsera. Namni beekamaan kunis xumura ibsa isaa keessatti waa’ee argamuu DNA waliin wal-qabsiisee ibseera.  Sababiin isaa immoo akka armaan gadiiti. Uumamni DNA dhiiga keenya keessatti argamu wal-xaxiinsisaa uumama kompiiteraa waliin hedduu wal-fakkaata. Akkuma armaan gaditti argamutti, sagantaan tolfama kompiiteraa tartiiba zeeroo (0) fi lakkofsa tokko (1) irraa kan tolfame yommuu ta’u, kunis mallattoo cimdii (binary code) jedhama. Tartiibnii fi tarreen lakkoofsota 0 fi 1 kuni sagantaan tolfama kompiiteraa sirriitti akka hojiisaa hojjetu isa taasisa. Saganteessuu kompiiteraa:
 
 
@@ -188,7 +233,7 @@ Guutummaa guutuutti homtuu hin turree taanan, silaa wanti tokkollee bakkee dha j
 \n\nDNA n 99.9% ta’u gosa sanyii namaa (genetic makeup) hunda waliin kan wal-fakkaatu akka ta’e bira gahameera.
 \n\nHaala adda ta’een wanti baayee nama ajaa’ibu tokko seelota keenya keessatti akkaataa naqama tartiiba koodii qubeewwan biliyoona sadii ta’anii suni garaagarummaa baayee xiqqoo ta’een tartiibaan kaa’amuu isaaniiti.
 \n\nMootummaan Ameerikaa namoota biyya sana keessa jiran hunda karaa toora lakkofsa nageenya hawwaasummaa dijitii sagal qabuun namoota hunda adda baasee beekuu danda’eera. Egaa seelota keenya hunda keessatti DNA koodii qubeewwan biliyoona sadii ta’an kan argaman yommuu ta’u, caasaa tarreeffama isaanii kana kan nama biraa waliin yoo wal-bira qabnee ilaalle kan keenya waliin kan wal-fakkaatu tokkolee hin jiru. Koodiin kunis nuti nama biraa irraa kan itti adda baanuu yommuu ta’u, itti fufinsaan immoo amaloota seelota keenyaa kan ajaju ta’a.
-\n\nDNA n maaliif akka fayyadu ilaaluu dandeessa
+\n\n<b>DNA n maaliif akka fayyadu ilaaluu dandeessa</b>
 \n\nDaarekteera projektii odeffannoo ilmaan namaa kan ta’an Dr. Firaansis Koolinis (nama fakkii caasaa DNA ilmaan namaa argate) akka jedhanitti “DNA n akka qajeelfama barreeffama tokkoo, akka sagantaa sooftiweerii isa wiirtuu seelii keessatti argamuutti” yaaduun ni danda’a jedhaniiru.
 \n\nOgeessa olaanaa odeeffannoo kan ta’e Perii Marshaal, yaada kana irratti xiinxala dhuunfaa isaa yommuu kennu, “Sagantaan kompiiteraa wixinee, hin qabne tokko jiraachuu hin danda’u. Koodiin ykn ergaa karaa luga afaaniitiin irratti fe’ame of keessaa qabaachuun dirqama. Kana hunda duuba immoo qaamni sammuu bilchaate qabu tokko akka jiru shakkii hin qabu’’. Antoonii Filew akkas jedha, “Koodii qubeewwan biiliyoona sadii qabu kana ajajamuudhaan seelonni hojii isaanii otuu gar-gar hin kutiin akka hojjetan qaamni ergaa kana itti fe’ee ajaja kenne kuni eenyudha? Jedhanii gaafachuun gaaffii seera qabeessadha” jedhu. Koodii hojii akkasii gaggeessu kana seelota keessa kan kaa’e eenyudhaa?
 \n\nNamni galaana qarqara deemu tokko yommuu qilleensi dhahaan bishaanii uumee bishaan wal-irragalagalchuudhaan cirracha gara handaara lafaatti yaasu akkuma ijaan arguu danda’u, kunis akkuma kana. Gochaa kana eenyu raawwachaa akka jiru namni kuni sirriitti akkuma hubachuu danda’u, gochaa seelota kanaa duuba qaamni humna qabeessi tokko akka jiru shakkii hin qabu.
@@ -201,17 +246,17 @@ Kuni ergaa ifa ta’ee  fi dubbii bakkeetti mul’atudha. Akkuma kana caasaan DN
 \n\nJireenya keenya keessatti inni gaggeessaa amanamaa isa hunda caaludha. Inni DNA n akka seelotaaf qajeelfama kennu akkuma qindeessee uumetti, jireenyi keenya haala gaariiitti hiika qabeessa akka ta’u qajeelfama nuuf arjoome. Kanas ulfina isaaf jecha nuuf godhe, sababiinsaa immoo inni waan nu jaallatuufidha. DNA n maaliif fayyadaa? Jiraachuu Waaqayyoo wantoota mirkaneessan keessaa DNA n isa tokko waan ta’eefdha. Waaqayyo qaama keenya wixineessee uumeera. Akkasumas jireenya kee wixineessuudhaaf inni amanamaadha. Waaqayyo waliin walitti dhufeenya uummachuu jalqabuu barbaadda? Waaqayyoon attamitti dhuunfaatti beekuu akka dandeessu /Knowing God Personally/ inni jedhu kuni siif ibsa.
 \n\nGaaffii isa “Waaqayyo dhugumaa ni jiraa?” jedhuuf ragaa fi deebii dabalataa yoo barbaadde, Waaqayyo ni jiraa? isa jedhu akka ilaaltu sin jajjabeessa.
 
-\n\nWaaqayyo eessa jira?
+\n\n<b>Waaqayyo eessa jira?</b>
 \n\nNamoonni Waaqayyo eessa jiraa?, jedhu. Mee Waaqayyoon natti argisiisi, Waaqayyo ijaan hin mul’atu taanaan immoo attamiin of mul’isuu danda’a?  jedhanii gaafatu.
 \n\nMee namoonni qamni isaanii battee te’e lama waraqaa diriiraa tokkorra akka jiranitti yaadi. Namoonni kunis gara kallattii lamaatti duwwaa ilaaluu danda’u, dheerina fi bal’ina qabu garuu gadi fageenya hin qaban, waraqaan suni immoo bal’ina addunyaa isaaniiti. Namoonni kuni nama waraqicha irra hin jirre arguu danda’uu? Hin danda’an. Kan isaan arguu danda’an isa waraqicharra jiru duwwaadha (addunyaa isaanii). Ilaalcha gadi-fageenya qabullee hin qaban. Mee karaa duuba isaanii goruudhaan quba harka kee tokkoon akka nama waraqicha tuquuf jedhuutti fakkeessi itti diriirsi. Namoonni kuni amma si arguu danda’u? Namoonni kuni qaama kee hunda arguu hin danda’an garuu handaara quba kee isa addunyaa isaanii seene sana arguu danda’u malee.
-\n\nWaaqayyo ijaan hin mul’atu
+\n\n<b>Waaqayyo ijaan hin mul’atu</b>
 \n\nKunis haala nuti Waaqayyo waliin qabnu wajjin wal-fakkaata. Waaqayyo kan jiraatu dandeettii ijaan arguu keenyan alattidha. Inni kan jiraatu bakkaa fi yeroodhaan alattidha. Kanaaf ijaan isa arguun rakkisaa ta’a. Nutis akka namoota waraqaa diriiraa sanarra jiraniiti. Yoo inni quba isaa diriirsu gochaa inni addunyaa keenya keessatti raawwatu keessaa baayyee xiqqoo duwwaa arguu dandeenya. Nuti egaa akka namoota gar-lama duwwaa arguu danda’anii fi warra waraqicha irratti argamaniiti. Isa kallatti sadaffaa irra jiru arguu hin dandaeenyu. Garuu haala kanaan nuti kallattii 4ffaa keessatti (dheerina, bal’ina, gad-fageenyaa fi yeroo) yommuu argamnu, Waaqayyo immoo sana hundaan alatti argama. Kanaaf Waaqayyo isa kallattiiwwan armaan oliin alatti argamu kana attamii beekuu dandeenyaa? Akkuma namoota battee (kallattii lama duwwaa arguu danda’anii) waraqicha irratti argaman sanaa, yoo isin waraqaa sana qubaan tuqtan malee isin arguu hin dandeenyee, nutis yoo inni fedhee eenyummaa isaa nutti mul’ise malee Waaqayyoon arguu hin dandeenyu. Inni dirqama waraqicha addunyaa keenyaa tuquu qaba. Waaqayyo kallattiiwwan kamiyyuu keessaa tarkaanfatee dhufuu qaba.
-\n\nWaaqayyo inni ijaan hin mul’anne suni mul’ateera.
+\n\n<b>Waaqayyo inni ijaan hin mul’anne suni mul’ateera.</b>
 Akkuma seenaa ilmaan namaa qu’anneen, keessumaa immoo seenaa amantii hafuuraa yommuu ilaallu yerootti Waaqayyo “waraqaa addunyaa” keenyaa tuqe ni jiraa?
 \n\nHubadhu! Seenaa keessatti yeroon itti Waaqayyo kara Yesuus Kristoos quba isaatiin addunyaa keenya tuqe ni jira. Yesuus Waaqa ta’uu isaa labsuudhaan, isa arguun Waaqayyoon arguu akka ta’e dubbateera. Inni \n\nkallattiidhaan Waaqa biraa gara addunyaa keenyaatti ergamuudhaan cubbuu namootaaf dhiifama kan argamsiisedha. Kanas gochuu kan danda’u Waaqayyo duwwaadha.
 \n\nKitaabonni kakuu haaraa hedduun Waaqummaa Yesuus Kristoos mirkaneessaniiru. Inni Waaqa isa “Foon uffataa keessa maadhefachuudhaaf dhufee nu gidduu buufatedha”. Inni fakkeenya Waaqa isa ijaan hin mul’anneeti.
 \n\nNuti namoota kallatti lama duwwaadhaan ilaallu yoo taane, Waaqayyo inni kallattiin isa hin daangessine immoo nama ta’uudhaan addunyaa namaa isa kallattii afur qabu keessa dhufee nama ta’uunsaa gochaa hiika qabeessadha. Innis kanaan eenyummaa Isaa nutti mul’ise. Garuu Waaqayyo maaliif kana godhe?
-\n\nInni Maaliif Dhufe?
+\n\n<b>Inni Maaliif Dhufe?</b>
 Seenaan jaarsa qotee bulaan tokko ture. Innis qofaasaa kutaa tokko keessa jiraata ture. Kutaa isaatti aansee immo kutaan midhaan keessa kuufamu jira ture. Halkan tokko  waqitii qorraa keessa simbirroonni bakkeedhaa qorra isaan ajjeesuuf jedhu jalaa baqatanii karaa foddaa mana qotee bulichaa, gara kutaa isaa isa ho’uutti ol-seenuu jalqaban. Qotee bulichis gadi ba’uudhaan foddaa kuusaa midhaanii sana bane. Kuusaan midhaanii suni keessisaa baayyee ho’a ture. Innis harka isaa facaasuudhaan sibbirroonni suni gara kuusichaatti nagaadhaan akka seenan gochuudhaaf yaale. Garuu simbiroonni suni isa hubachuu hin dandeenye ture. Yeroo kana ture qotee bulichi simbirroota sana keessaa tokko ta’uuf kan hawwe. Otuu simbirroota keessaa isa tokko ta’uu danda’a ta’ee, salphaatti gara kuusichaatti isaan gaggeessuudhaan du’a jalaa isaan baraaruu danda’a ture. Yeroo sana ture qotee bulichi Yesuus maaliif gara biyya lafaa akka dhufe kan hubate. Qotee bulichi nama waan ta’eef simbira ta’uu hin danda’u, Waaqayyo garuu Waaqa hunda danda’u waan ta’eef nama ta’ee dhufe. Innis hunda ni raawwate. “Waaqayyo, akkasitti tokkicha ilma isaa hamma kennuufitti biyya lafaa jaallate; kun immoo isatti kan amanu hundinuu jireenya bara-baraa haa qabaatuuf malee, haa baduuf miti”! (Yoh 3:16) jedha sagaleensaa.
 \n\nWaaqayyo gara biyya lafaa dhufuu isaa caalmaatti hubachuudhaaf, ibsa guutuu yoo barbaadde barreeffama gabaabaa, “Amantii jaamaadhaan gamatti” jedhu kana dubbisi. </string>
     <string name="egziabher_yet_new_content">\n\n <b>Namoonni Waaqayyo eessa jiraa?, jedhu. Mee Waaqayyoon natti argisiisi, Waaqayyo ijaan hin mul’atu taanaan immoo attamiin of mul’isuu danda’a? jedhanii gaafatu.</b>

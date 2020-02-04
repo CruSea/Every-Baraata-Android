@@ -54,25 +54,7 @@ public class Hiliwinaw extends AppCompatActivity {
         tabLayout = findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
 
-        BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation_hiliwunaw);
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.action_recents:
-                        startActivity(new Intent(Hiliwinaw.this, MainActivity.class));
-                        // Toast.makeText(MainActivity.this, "Recents", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.action_favorites:
-                        Toast.makeText(Hiliwinaw.this, "Favorites", Toast.LENGTH_SHORT).show();
-                        break;
-                    case R.id.action_nearby:
-                        Toast.makeText(Hiliwinaw.this, "Nearby", Toast.LENGTH_SHORT).show();
-                        break;
-                }
-                return true;
-            }
-        });
+
 
     }
 
@@ -150,53 +132,53 @@ public class Hiliwinaw extends AppCompatActivity {
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-
-        getMenuInflater().inflate(R.menu.menu_aboutus, menu);
-        return true;
-
-    }
-
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        //  int id = item.getItemId();
-
-        if (item.getItemId() == R.id.menu_share) {
-            String shareBody = "https://www.habeshastudent.com/m/existence.html";
-            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-            sharingIntent.setType("text/plain");
-            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "SUBJECT");
-            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
-            startActivity(Intent.createChooser(sharingIntent, "choose one"));
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//
+//        getMenuInflater().inflate(R.menu.menu_aboutus, menu);
+//        return true;
+//
+//    }
 
 
-        } else if (item.getItemId() == R.id.call) {
-
-            Intent myIntent = new Intent(Hiliwinaw.this, TeleEshtaol.class);
-            startActivity(myIntent);
-        } else if (item.getItemId() == R.id.feedback) {
-
-            Intent myIntent = new Intent(Hiliwinaw.this, Feedback.class);
-            startActivity(myIntent);
-        } else if (item.getItemId() == R.id.aboutus) {
-
-            Intent myIntent = new Intent(Hiliwinaw.this, AboutUs.class);
-            startActivity(myIntent);
-        }
-        return true;
-    }
-
-    @Override
-    public void onBackPressed()
-    {
-        // super.onBackPressed();
-         finish();
-        startActivity(new Intent(Hiliwinaw.this, MainActivity.class));
-
-
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//
+//        //  int id = item.getItemId();
+//
+//        if (item.getItemId() == R.id.menu_share) {
+//            String shareBody = "https://www.habeshastudent.com/m/existence.html";
+//            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+//            sharingIntent.setType("text/plain");
+//            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "SUBJECT");
+//            sharingIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
+//            startActivity(Intent.createChooser(sharingIntent, "choose one"));
+//
+//
+//        } else if (item.getItemId() == R.id.call) {
+//
+//            Intent myIntent = new Intent(Hiliwinaw.this, TeleEshtaol.class);
+//            startActivity(myIntent);
+//        } else if (item.getItemId() == R.id.feedback) {
+//
+//            Intent myIntent = new Intent(Hiliwinaw.this, Feedback.class);
+//            startActivity(myIntent);
+//        } else if (item.getItemId() == R.id.aboutus) {
+//
+//            Intent myIntent = new Intent(Hiliwinaw.this, AboutUs.class);
+//            startActivity(myIntent);
+//        }
+//        return true;
+//    }
+//
+//    @Override
+//    public void onBackPressed()
+//    {
+//        // super.onBackPressed();
+//         finish();
+//        startActivity(new Intent(Hiliwinaw.this, MainActivity.class));
+//
+//
+//    }
 
 }
