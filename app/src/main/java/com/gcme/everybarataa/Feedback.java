@@ -43,7 +43,7 @@ public  class Feedback extends AppCompatActivity {
             public void onClick(View v) {
 
                 if (TextUtils.isEmpty(textMessage.getText().toString())){
-                    Toast.makeText(Feedback.this, "Please Add Your Email!",
+                    Toast.makeText(Feedback.this, getResources().getString(R.string.please_add_message),
                     Toast.LENGTH_SHORT).show();
 
 
@@ -64,7 +64,7 @@ public  class Feedback extends AppCompatActivity {
                     //need this to prompts email client only
                     email.setType("message/rfc822");
 
-                    startActivity(Intent.createChooser(email, "Choose  Email:"));
+                    startActivity(Intent.createChooser(email, getResources().getString(R.string.choose_email)));
 
 //                    Toast.makeText(Feedback.this,
 //                            "Sending..",
