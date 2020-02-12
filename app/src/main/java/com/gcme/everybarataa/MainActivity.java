@@ -3,6 +3,7 @@ package com.gcme.everybarataa;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
     LinearLayout panel1,panel2,panel3,panel4,panel5;
     TextView text1,text2,text3,text4,text5;
     View openLayout;
-    private Button button, button1,button2,button3,button4,button5,button6,button7,button8,button12,button15,
+    Button button, button1,button2,button3,button4,button5,button6,button7,button8,button12,button15,
             button17,button22,button24,button25,button26,button27,button32,
             button33;
 

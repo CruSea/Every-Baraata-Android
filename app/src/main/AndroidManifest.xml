@@ -121,29 +121,25 @@
 
         </activity>
         <activity android:name=".AboutUs"
-            android:label="ስለ እኛ"
-            
-
+            android:label="@string/about"
             >
 
         </activity>
         <activity android:name=".Feedback"
-            android:label="አስተያየት"
-            
-
+            android:label="@string/asteyayet"
             >
 
         </activity>
         <activity android:name=".TeleEshtaol"
             
-            android:label="ቴል_ኤሽታኦል">
+            android:label="@string/teleshtaol">
 
         </activity>
         <activity android:name=".activityFilmoch.VideosOneActivity"
-            android:label="ፊልሞች ይመልከቱ">
+            android:label="@string/videos">
         </activity>
         <activity android:name=".activityFilmoch.VideosTwoActivity"
-            android:label="ፊልሞች ይመልከቱ">
+            android:label="@string/videos">
         </activity>
 
     </application>
