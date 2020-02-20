@@ -35,7 +35,7 @@
         android:focusable="false"
         android:longClickable="false"
         android:paddingLeft="40dp"
-        android:text="hascom@gmail.com"
+        android:text="@string/email_address"
         android:textAppearance="?android:attr/textAppearanceLarge"
 
         />
