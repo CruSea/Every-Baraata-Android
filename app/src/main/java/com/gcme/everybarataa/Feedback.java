@@ -85,18 +85,18 @@ public  class Feedback extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.menu_home:
                         startActivity(new Intent(Feedback.this, MainActivity.class));
-                        Animatoo.animateSplit(Feedback.this);
+                        Animatoo.animateSlideRight(Feedback.this);
                         break;
                     case R.id.menu_teleshataol:
                         startActivity(new Intent(Feedback.this, TeleEshtaol.class));
-                        Animatoo.animateSplit(Feedback.this);
+                        Animatoo.animateSlideRight(Feedback.this);
                         break;
                     case R.id.menu_contact_us:
                        // startActivity(new Intent(Feedback.this, Feedback.class));
                         break;
                     case R.id.menu_about:
                         startActivity(new Intent(Feedback.this, AboutUs.class));
-                        Animatoo.animateSplit(Feedback.this);
+                        Animatoo.animateSlideRight(Feedback.this);
                         break;
                 }
                 return true;

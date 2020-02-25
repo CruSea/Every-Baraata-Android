@@ -6,14 +6,17 @@ import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -24,6 +27,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class TeleEshtaol extends AppCompatActivity implements View.OnClickListener {
 
     private Button Teleshtaol, WebViewBtn;
+    private static final int REQUEST_CALL = 1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,18 +50,18 @@ public class TeleEshtaol extends AppCompatActivity implements View.OnClickListen
                 switch (item.getItemId()) {
                     case R.id.menu_home:
                         startActivity(new Intent(TeleEshtaol.this, MainActivity.class));
-                        Animatoo.animateSplit(TeleEshtaol.this);
+                        Animatoo.animateSlideRight(TeleEshtaol.this);
                         break;
                     case R.id.menu_teleshataol:
-                      //  startActivity(new Intent(TeleEshtaol.this, TeleEshtaol.class));
+                        //  startActivity(new Intent(TeleEshtaol.this, TeleEshtaol.class));
                         break;
                     case R.id.menu_contact_us:
                         startActivity(new Intent(TeleEshtaol.this, Feedback.class));
-                        Animatoo.animateSplit(TeleEshtaol.this);
+                        Animatoo.animateSlideRight(TeleEshtaol.this);
                         break;
                     case R.id.menu_about:
                         startActivity(new Intent(TeleEshtaol.this, AboutUs.class));
-                        Animatoo.animateSplit(TeleEshtaol.this);
+                        Animatoo.animateSlideRight(TeleEshtaol.this);
                         break;
                 }
                 return true;
@@ -68,22 +73,8 @@ public class TeleEshtaol extends AppCompatActivity implements View.OnClickListen
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.call_teleshtaol:
+                makePhoneCall();
 
-                Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel:+251116174400"));
-                if (ActivityCompat.checkSelfPermission(TeleEshtaol.this,
-                        Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                    return;
-                }
-                startActivity(callIntent);
-//            Intent callIntent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:+251116174400"));
-//            try{
-//                startActivity(callIntent);
-//                }
-//
-//             catch (android.content.ActivityNotFoundException ex){
-//                     Toast.makeText(getApplicationContext(), "Try again later", Toast.LENGTH_SHORT).show();
-//                 }
                 break;
             case R.id.goToFbBtn:
                 startActivity(new Intent(this, WebView.class));
@@ -92,5 +83,28 @@ public class TeleEshtaol extends AppCompatActivity implements View.OnClickListen
         return;
     }
 
+    private void makePhoneCall() {
+        String number = "+251116174400";
+            if (ContextCompat.checkSelfPermission(TeleEshtaol.this,
+                    Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(TeleEshtaol.this,
+                        new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
+            } else {
+                String dial = "tel:" + number;
+                startActivity(new Intent(Intent.ACTION_CALL, Uri.parse(dial)));
+            }
 
+
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        if (requestCode == REQUEST_CALL) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                makePhoneCall();
+            } else {
+                Toast.makeText(this, "Permission DENIED", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
 }

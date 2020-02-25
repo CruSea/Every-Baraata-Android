@@ -26,17 +26,17 @@ public class AboutUs extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.menu_home:
                         startActivity(new Intent(AboutUs.this, MainActivity.class));
-                        Animatoo.animateSplit(AboutUs.this);
+                        Animatoo.animateSlideRight(AboutUs.this);
 
                         break;
                     case R.id.menu_teleshataol:
                         startActivity(new Intent(AboutUs.this, TeleEshtaol.class));
-                        Animatoo.animateSplit(AboutUs.this);
+                        Animatoo.animateSlideRight(AboutUs.this);
 
                         break;
                     case R.id.menu_contact_us:
                         startActivity(new Intent(AboutUs.this, Feedback.class));
-                        Animatoo.animateSplit(AboutUs.this);
+                        Animatoo.animateSlideRight(AboutUs.this);
 
                         break;
                     case R.id.menu_about:

@@ -77,15 +77,15 @@ public class MainActivity extends AppCompatActivity implements OnClickListener
                         break;
                     case R.id.menu_teleshataol:
                         startActivity(new Intent(MainActivity.this, TeleEshtaol.class));
-                        Animatoo.animateSplit(MainActivity.this);
+                        Animatoo.animateSlideRight(MainActivity.this);
                         break;
                     case R.id.menu_contact_us:
                         startActivity(new Intent(MainActivity.this, Feedback.class));
-                        Animatoo.animateSplit(MainActivity.this);
+                        Animatoo.animateSlideRight(MainActivity.this);
                         break;
                     case R.id.menu_about:
                         startActivity(new Intent(MainActivity.this, AboutUs.class));
-                        Animatoo.animateSplit(MainActivity.this);
+                        Animatoo.animateSlideRight(MainActivity.this);
                         break;
                 }
                 return true;

@@ -130,9 +130,17 @@
             >
 
         </activity>
+        <service android:name=".TeleEshtaol"
+            android:label="@string/teleshtaol"
+            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE">
+            <intent-filter>
+                <action android:name="android.telecom.ConnectionService" />
+            </intent-filter>
+        </service>
         <activity android:name=".TeleEshtaol"
-            
-            android:label="@string/teleshtaol">
+
+            android:label="@string/teleshtaol"
+            >
 
         </activity>
         <activity android:name=".activityFilmoch.VideosOneActivity"
