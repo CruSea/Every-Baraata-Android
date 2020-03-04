@@ -9,9 +9,9 @@
     <application
         android:name=".MyApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_ebcom_launcher"
+        android:icon="@mipmap/icon_ebcom"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_ebcom_launcher_round"
+        android:roundIcon="@mipmap/icon_ebcom_round"
         android:supportsRtl="true"
         android:theme="@style/MyMaterialTheme">
         <activity
